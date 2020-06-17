@@ -11,8 +11,8 @@
   <link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
   <style>
   img{
-	  width: 100px;
-	  height:100px;
+	  width: 150px;
+	  height:150px;
   }
   .navbar{
   margin-bottom:0;
@@ -36,8 +36,6 @@
   max-width: 20px;
   width: 20px;
   height: 20px;
-
-
 	
   
   }
@@ -90,18 +88,14 @@
 		font-size: 1.7em;
 	}
   }
-  form{
-	  margin: 50px;
-	  transition: all 4s ease-in-out; 
-  }
   form-control{
-	  width: 600px;
+	  width: 50%;
 	  border: 5px;
   }
   input{
 	  height: 45px;
   }
-  form .submit{
+  button{
 	  background:cyan;
 	  color: #fff;
 	  font-size: 20px;
@@ -110,6 +104,17 @@
 	  margin-top:20px;
 	  border-color:transparent;
   }
+  form{
+	padding-top:10px;
+	padding-bottom:10px;
+	width:50%;
+	margin:50px;
+	outline-color:black;
+	outline:5px;
+	background-color:black;
+	color:#fff;
+	transition: all 4s ease-in-out;
+}
 	
   </style>
 </head>
@@ -136,23 +141,23 @@
 			</div>
 		</div>
 	</nav>
-	<div class="contact_form">
+	
+	<div class = "form">
+		<center>
 		<form "method="post" action="contact-form-handler.php">
-			<label>Name</label>
+			<label>Name</label> 
 			<input type="text" name="name" placeholder="Your Name" class="form-control" required><br>
 			<label>E-mail address</label>
 			<input type="text" name="email" placeholder="Your e-mail" class="form-control" required><br>
-			<label>Subject</label>
-			<input type="text" name="subject" placeholder="Place your message subject here"><br> 
+			<label>Subject</label><br>
+			<input type="text" name="subject" placeholder="Place your message subject here" class="form-control"><br> 
 			<label>Message</label>
-			<textarea name="message" placeholder="Place your messege here" class="form-control" required></textarea><br>
+			<textarea name="message" placeholder="Place your messege here" class="form-control" style="height:200px" required></textarea><br>
 			
 			<button type="submit" name="submit"> Send </button>    
 		</form>
 	</div>
-	
-	
-	
+		
 	<footer class="container-fluid text-center">
 		<div class="row">
 		
@@ -187,8 +192,5 @@
 	
 			
 			
-
-
-
 </body>
 </html>
