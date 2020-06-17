@@ -96,7 +96,7 @@
 	  height: 45px;
   }
   button{
-	  background:cyan;
+	  background:grey;
 	  color: #fff;
 	  font-size: 20px;
 	  font-weight: bold;
