@@ -1,0 +1,140 @@
+.navbar{
+    margin-bottom:0;
+    
+    background-color: #FFF;
+    padding: 0.45% 0;
+    font-size: 1.4em;
+    border: 0;
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    }
+    
+    .navbar-brand{
+    float: left;
+    min-height:35px;
+    padding: 0 15px 2px;
+    
+    }
+    
+    .navbar-inverse .navbar-nav .active a, .navbar-inverse navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
+    color:rgb(255, 255, 255);
+    background-color: rgb(3, 3, 3) ;
+    
+    }
+    .navbar-inverse .navbar-nav li a{
+    color: #000;
+    }
+
+    footer{
+    width: 100%;
+    background-color:#000;
+    padding:5%;
+    color: #FFF;
+  
+    }
+  
+    .fa{
+    padding: 15px;
+    font-size: 30px;
+    }
+  
+    .fa:hover {
+    color:#D5D5D5;
+    text-decoration:none;
+    }
+
+    #icon{
+	
+    max-width:150px;  
+    }
+    
+
+    div.align {
+    text-align: justify;
+    } 
+
+    .content-area {
+    width: auto;
+    margin: 0;
+    padding: 20px 20px;
+    }
+    .middle-align {
+    margin: 0 auto;
+    padding: 0;
+    }
+
+    .sidebar-left {
+    float: left !important;
+    width: 30%;
+    }
+    .site-main {
+    width: 65%;
+    }
+
+    .flotRight {
+    float: right !important;
+    }
+
+    header {
+    display: block;
+    }
+
+    h1.entry-title {
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    }
+
+    .clear {
+    clear: both;
+    }
+
+    div.animate {
+    
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    }
+
+    @keyframes example {
+    0%   {left:0px; top:100px;}
+    100%  {left:0px; top:0px;}
+    }
+
+    .blog-item-body h2.lifter{
+    
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    text-transform: none;
+    color: #000000;
+    font-size: 20px !important;
+    padding: 0px;
+    margin: 15px 0px 20px 0px;
+    }
+
+
+    .bg-dark-black{
+        padding: 20px 0px 0px 0px;
+        border-left: #ffffff 10px solid;
+        border-right: #ffffff 20px solid;
+    }
+
+    .relative {
+        position: relative;
+    }
+
+    .align-right{
+        text-align: right !important;
+    }
+    
+
+    .container{
+        padding-right: 15px;
+        scroll-padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }

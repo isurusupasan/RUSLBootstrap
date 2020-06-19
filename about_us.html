@@ -9,115 +9,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
+    <link rel="stylesheet" href="css/page_custom.css">
     <style>
-    .navbar{
-    margin-bottom:0;
     
-    background-color: #FFF;
-    padding: 0.45% 0;
-    font-size: 1.4em;
-    border: 0;
-    position: relative;
-    min-height: 50px;
-    margin-bottom: 20px;
-    border: 1px solid transparent;
-    }
-    
-    .navbar-brand{
-    float: left;
-    min-height:35px;
-    padding: 0 15px 2px;
-    
-    }
-    
-    .navbar-inverse .navbar-nav .active a, .navbar-inverse navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
-    color:rgb(255, 255, 255);
-    background-color: rgb(3, 3, 3) ;
-    
-    }
-    .navbar-inverse .navbar-nav li a{
-    color: #000;
-    }
-
-    footer{
-    width: 100%;
-    background-color:#000;
-    padding:5%;
-    color: #FFF;
-  
-    }
-  
-    .fa{
-    padding: 15px;
-    font-size: 30px;
-    }
-  
-    .fa:hover {
-    color:#D5D5D5;
-    text-decoration:none;
-    }
-
-    #icon{
-	
-    max-width:150px;  
-    }
-    
-
-    div.align {
-    text-align: justify;
-    } 
-
-    .content-area {
-    width: auto;
-    margin: 0;
-    padding: 20px 20px;
-    }
-    .middle-align {
-    margin: 0 auto;
-    padding: 0;
-    }
-
-    .sidebar-left {
-    float: left !important;
-    width: 30%;
-    }
-    .site-main {
-    width: 65%;
-    }
-
-    .flotRight {
-    float: right !important;
-    }
-
-    header {
-    display: block;
-    }
-
-    h1.entry-title {
-    font-weight: 600;
-    font-size: 30px;
-    text-transform: uppercase;
-    padding-bottom: 20px;
-    margin-bottom: 30px;
-    position: relative;
-    }
-
-    .clear {
-    clear: both;
-    }
-
-    div.animate {
-    
-    position: relative;
-    animation-name: example;
-    animation-duration: 6s;
-    }
-
-    @keyframes example {
-    0%   {left:0px; top:100px;}
-    100%  {left:0px; top:0px;}
-    }
-
 
 
     </style>
@@ -150,7 +44,17 @@
 		</div>
     </nav>
     
-    <div class="container content-area animate">
+    <section class="page-section2 bg-dark-black">
+      <div class="relative container align-right">
+      <div class="row">
+      <div class="col-md-12">
+      <h1 class="pt-20">About Us</h1>
+      </div>
+      </div>
+      </div>
+      </section>
+
+    <div class="container content-area">
         <div class="middle-align sidebar_content">
             <div class="sidebar-left">
             <div id="sidebar">
@@ -214,16 +118,16 @@
 
             <div class="site-main flotRight" id="sitemain">
 
-                <article id="post-01" >
+                <!--<article id="post-01" >
                 <header class="entry-header">
 
                     <h1 class="entry-title">About us</h1>
-                </header>
-                <!-- .entry-header -->
+                </header>-->
+                <!-- .entry-header --> 
 
-                <div class="container-fluid">
-                   
-                    <div id="myCarousel" class="carousel slide animate" data-ride="carousel">
+                <div class="row color_blk ">
+                  <div class="col-sm-6 no_padding_lr col-md-6 col-lg-6 add_line wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
                       <!-- Indicators -->
                       <ol class="carousel-indicators">
                         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -253,9 +157,31 @@
                       </a>
                     </div>
                   </div>
+                </div>
+
+                  <div class="col-sm-6 no_padding_lr col-md-6 col-lg-6 wow fadeInUp" style="margin-top: 0px; visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;" data-wow-delay="0.4s">
+                    <div class="banner_qot">
+                      <blockquote>
+                            The dawn of human civilisation, from astrology to simple household functions, the art and the science of extracting, 
+                            processing and obtaining useful insights from structured and unstructured sources of data has been entangled with human existence.
+                  
+                      </blockquote>
+                    </div>
+                  </div>
+              </div>
+
+                <div class="container-fluid animate">
+                   
+                    
                   
     
                     <div class="entry-content">
+
+                        <p> <h3 class="lifter" style="text-align: justify;">
+                          Success of a research centre always uses failure and constant learning to uplift from where it stands. 
+                          We, as a team, envision the possible future crisis and complications that might occur and do research,collect data and analyse them and to devise a solution to avoid or minimize such a crisis.
+                          </h3><br>
+                        </p>
                         
                         <p><br> the dawn of human civilisation, from astrology to simple household functions, the art and the science of extracting, 
                             processing and obtaining useful insights from structured and unstructured sources of data has been entangled with human existence.
@@ -287,11 +213,7 @@
                             The quality of a product -tangible or intangible- are always considered important , Therefore, the centre focuses on mould researches and industrialists that are of high calibre who promote and carry out high quality research fostering linkages between local and international industries.<br>
                         </P>
                 
-                        <p> <h3>
-                            Success of a research centre always uses failure and constant learning to uplift from where it stands. 
-                            We, as a team, envision the possible future crisis and complications that might occur and do research,collect data and analyse them and to devise a solution to avoid or minimize such a crisis.
-                            </h3><br>
-                        </p>
+                       
 
 
                     </div><!-- .entry-content -->
