@@ -10,6 +10,11 @@
     margin-bottom: 20px;
     border: 1px solid transparent;
     }
+
+    .logo{
+        width: 100px;
+        height:100px;
+    }
     
     .navbar-brand{
     float: left;
@@ -60,6 +65,7 @@
     margin: 0;
     padding: 20px 20px;
     }
+
     .middle-align {
     margin: 0 auto;
     padding: 0;
@@ -67,7 +73,7 @@
 
     .sidebar-left {
     float: left !important;
-    width: 30%;
+    width: 20%;
     }
     .site-main {
     width: 65%;
@@ -106,6 +112,11 @@
     100%  {left:0px; top:0px;}
     }
 
+    @font-face{
+        font-family: "AnticDidone";
+        src: url("/fonts/AnticDidone-Regular.otf");
+    }
+
     .blog-item-body h2.lifter{
     
     font-family: 'roboto', Arial, Helvetica, sans-serif;
@@ -138,3 +149,9 @@
         margin-right: auto;
         margin-left: auto;
     }
+
+    .fontAjust{
+        font-family: AnticDidone;
+    }
+
+   
