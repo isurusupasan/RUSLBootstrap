@@ -99,9 +99,10 @@
 	margin:50px;
 	outline-color:black;
 	outline:5px;
-	background-color:black;
-	color:#fff;
+	background:transparent;
+	color:black;
 	transition: all 4s ease-in-out;
+	font-size:20px;
 }
 .info{
 	width:100%;
@@ -121,15 +122,20 @@ td{
 table social, td{
 	padding:10px;
 }
-.contact{
-	
-}
 table td{
 	padding:0px;
 }
 .banner{
 	margin-bottom:5px;
+	background-color:white;
 }
 .description{
 	font-family:Times, "Times New Roman", serif;
+}
+.image{
+	padding-left:100px;
+	background-color:white;
+}
+.offices{
+	padding-left:100px;
 }
