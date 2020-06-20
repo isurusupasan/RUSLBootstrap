@@ -62,11 +62,11 @@
     }
     
 
-    div.align {
+    div.align {/* text align to justify*/
     text-align: justify;
     } 
 
-    .content-area {
+    .content-area {/* creating whole padding to content area*/
     width: auto;
     margin: 0;
     padding: 20px 20px;
@@ -77,11 +77,11 @@
     padding: 0;
     }
 
-    .sidebar-left {
+    .sidebar-left {/* left side of the sidebar*/
     float: left !important;
     width: 25%;
     }
-    .site-main {
+    .site-main {/* controlling second side*/
     width: 74%;
     }
 
@@ -89,11 +89,11 @@
     float: right !important;
     }
 
-    header {
+    header {/* header for about us text (incase we may need)*/
     display: block;
     }
 
-    h1.entry-title {
+    h1.entry-title { /* header for about us text (incase we may need)*/
     font-weight: 600;
     font-size: 30px;
     text-transform: uppercase;
@@ -106,24 +106,28 @@
     clear: both;
     }
 
-    div.animate {
+    div.animate {/* creating animate class to slider and quate*/
     
     position: relative;
-    animation-name: example;
+    animation-name: animateimg;
     animation-duration: 4s;
     }
 
-    @keyframes example {
+    @keyframes animateimg {/* giving parameters from where to where it animates*/
     0%   {left:0px; top:100px;}
     100%  {left:0px; top:0px;}
     }
 
-    @font-face{
+    @font-face{/* importig new font form font folder and giving a name*/
         font-family: "AnticDidone";
         src: url("/fonts/AnticDidone-Regular.otf");
     }
 
-    .blog-item-body h2.lifter{
+    .fontAjust{ /* appling easy class to call to newly added font*/
+        font-family: AnticDidone;
+    }
+
+    .blog-item-body h2.lifter{ /*text area for strong expressing somthing*/
     
     font-family: 'roboto', Arial, Helvetica, sans-serif;
     text-transform: none;
@@ -134,7 +138,7 @@
     }
 
 
-    .bg-dark-black{
+    .bg-dark-black{/* related to about us text block*/
         padding: 20px 0px 0px 0px;
         border-left: #ffffff 10px solid;
         border-right: #ffffff 20px solid;
@@ -156,16 +160,13 @@
         margin-left: auto;
     }
 
-    .fontAjust{
-        font-family: AnticDidone;
-    }
 
-    .row {
+    .row {/* controlling margins of devided bolocks*/
         margin-right: -15px;
         margin-left: -15px;
     }
 
-    .color_blk{ 
+    .color_blk{ /* appling for slider and qote that in the right side of devided page*/
         background-color: #FFFFFF ; 
         margin-left: -5px; 
         margin-right: -5px; 
@@ -173,12 +174,24 @@
         border-bottom:#FFFFFF 5px solid;
     }
 
-    div.polaroid {
+    div.polaroid {/* controlling the box type affect in objects*/
 
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         margin-bottom: 25px;
         width: 40%;
         background-color: white;
+    }
+
+    div.polaroidup{/* controlling the about us box colur and size*/
+        box-shadow: none;
+        margin-bottom: 25px;
+        width: inherit;
+        height: 100px;
+        background-color: #F5F5F5;
+    }
+
+    .entry-content{
+        padding-right: 5%;/*contolling the size of the text area*/
     }
 
    
