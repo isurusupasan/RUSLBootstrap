@@ -1,3 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,400,700,500,300,300italic);
+
+@import url(https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i);
+
+
+
 .navbar{
     margin-bottom:0;
     
@@ -154,4 +160,15 @@
         font-family: AnticDidone;
     }
 
-   
+    .row {
+        margin-right: -15px;
+        margin-left: -15px;
+    }
+
+    .color_blk{ 
+        background-color: #FFFFFF ; 
+        margin-left: -5px; 
+        margin-right: -5px; 
+        padding:5px !important; 
+        border-bottom:#FFFFFF 5px solid;
+    }
