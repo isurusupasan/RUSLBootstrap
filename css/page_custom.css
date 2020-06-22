@@ -175,13 +175,13 @@
         border-bottom:#FFFFFF 5px solid;
     }
 
-    div.polaroid {/* controlling the box type affect in objects*/
+    /*div.polaroid {/* controlling the box type affect in objects*/
 
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         margin-bottom: 25px;
         width: 40%;
         background-color: #F5F5F5;
-    }
+    }*/
 
     div.polaroidup{/* controlling the about us box colur and size*/
         box-shadow: none;
