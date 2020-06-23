@@ -1,122 +1,113 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,400,700,500,300,300italic);
 
 @import url(https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i);
+   
 
-
-
-
-.navbar{
-    margin-bottom:0;
-    
-    background-color: #FFF;
-    padding: 0.45% 0;
-    font-size: 1.4em;
-    border: 0;
-    position: relative;
-    min-height: 50px;
-    margin-bottom: 20px;
-    border: 1px solid transparent;
-    }
+    .navbar{
+       
+        background-color: #FFFFFF;
+        padding: 0.45% 0;
+        font-size: 1.4em;
+        min-height: 80px;
+        border: 1px solid transparent;
+        }
 
     .logo{
-        width: 100px;
-        height:100px;
+        width: 80px;
+        height:70px;
     }
-    
-    .navbar-brand{
-    float: left;
-    min-height:35px;
-    padding: 0 15px 2px;
-    
-    }
-    
-    .navbar-inverse .navbar-nav .active a, .navbar-inverse navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
-    color:rgb(0, 0, 0);
-    background-color: #F5F5F5 ;
-    
-    }
+ 
     .navbar-inverse .navbar-nav li a{
-    color: #000;
+        color: #000;
     }
 
+    .navbar-brand{
+        float: left;
+        min-height:35px;
+        padding: 0 15px 2px;
+        
+    }
+
+
+
     footer{
-    width: 100%;
-    background-color:#000;
-    padding:5%;
-    color: #FFF;
+        width: 100%;
+        background-color:#000;
+        padding:5%;
+        color: #FFF;
   
     }
   
     .fa{
-    padding: 15px;
-    font-size: 30px;
+        padding: 15px;
+        font-size: 30px;
     }
   
     .fa:hover {
-    color:#D5D5D5;
-    text-decoration:none;
+        color:#D5D5D5;
+        text-decoration:none;
     }
 
     #icon{
 	
-    max-width:150px;  
+        max-width:150px;  
     }
     
 
     div.align {/* text align to justify*/
-    text-align: justify;
+        text-align: justify;
     } 
 
     .content-area {/* creating whole padding to content area*/
-    width: auto;
-    margin: 0;
-    padding: 20px 20px;
+        width: auto;
+        margin: 0;
+        padding: 20px 20px;
     }
 
     .middle-align {
-    margin: 0 auto;
-    padding: 0;
+        margin: 0 auto;
+        padding: 0;
     }
 
     .sidebar-left {/* left side of the sidebar*/
-    float: left !important;
-    width: 25%;
+        float: left !important;
+        width: 25%;
     }
     .site-main {/* controlling second side*/
-    width: 74%;
+        width: 74%;
     }
 
     .flotRight {
-    float: right !important;
+        float: right !important;
     }
 
     header {/* header for about us text (incase we may need)*/
-    display: block;
+        display: block;
     }
 
     h1.entry-title { /* header for about us text (incase we may need)*/
-    font-weight: 600;
-    font-size: 30px;
-    text-transform: uppercase;
-    padding-bottom: 20px;
-    margin-bottom: 30px;
-    position: relative;
+        font-weight: 600;
+        font-size: 30px;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+        position: relative;
     }
 
     .clear {
-    clear: both;
+        clear: both;
     }
 
     div.animate {/* creating animate class to slider and quate*/
     
-    position: relative;
-    animation-name: animateimg;
-    animation-duration: 4s;
+        position: relative;
+        animation-name: animateimg;
+        animation-duration: 4s;
     }
 
     @keyframes animateimg {/* giving parameters from where to where it animates*/
-    0%   {left:0px; top:100px;}
-    100%  {left:0px; top:0px;}
+        0%   {left:0px; top:100px;}
+        100%  {left:0px; top:0px;}
     }
 
     @font-face{/* importig new font form font folder and giving a name*/
@@ -130,12 +121,12 @@
 
     .blog-item-body h2.lifter{ /*text area for strong expressing somthing*/
     
-    font-family: 'roboto', Arial, Helvetica, sans-serif;
-    text-transform: none;
-    color: #000000;
-    font-size: 20px !important;
-    padding: 0px;
-    margin: 15px 0px 20px 0px;
+        font-family: 'roboto', Arial, Helvetica, sans-serif;
+        text-transform: none;
+        color: #000000;
+        font-size: 20px !important;
+        padding: 0px;
+        margin: 15px 0px 20px 0px;
     }
 
 
@@ -175,21 +166,21 @@
         border-bottom:#FFFFFF 5px solid;
     }
 
-    /*div.polaroid {/* controlling the box type affect in objects*/
+    div.polaroid {/* controlling the box type affect in objects*/
 
-       /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         margin-bottom: 25px;
         width: 40%;
         background-color: #F5F5F5;
-    }*/
+    }
 
-    /*div.polaroidup{/* controlling the about us box colur and size*/
-        /*box-shadow: none;
+    div.polaroidup{/* controlling the about us box colur and size*/
+        box-shadow: none;
         margin-bottom: 25px;
         width: inherit;
-        height: 100px;
+        height: 120px;
         background-color: #F5F5F5;
-    }*/
+    }
 
     .entry-content{
         padding-right: 5%;/*contolling the size of the text area*/

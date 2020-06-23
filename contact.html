@@ -150,34 +150,37 @@ table td{
 </head>
 <body>
 	<!--<div class="container">-->
-	 <nav class="navbar navbar-inverse">
-		<div class="container-fluid">
-			<div class="navbar-header">
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+			  <div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					
-				
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>                        
 				</button>
-				<a class="navbar-brand" href="#"><img class="logo" src="img/rusl.png"></a>
-			</div>
-			<div class="collapse navbar-collapse" id="#myNavbar">
+				<a class="navbar-brand" href="#"><img src="img/rusl.png" class="logo"></a>
+			  </div>
+			  <div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about_us.html">About Us</a></li>
-					<li><a href="#">Research</a></li>
-					<li class="active"><a href="contact.html">Contact</a></li>
+				  <li style="background-color: #f5f5f5;"><a href="index.html">Home</a></li>
+				  <li class="dropdown" style="background-color: #f5f5f5;">
+					<a class="dropdown-toggle" data-toggle="#" href="about_us.html">About Us<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+					  <li><a href="#">Members</a></li>
+					</ul>
+				  </li>
+				  <li style="background-color: #f5f5f5;"><a href="#">Research</a></li>
+				  <li class="active" style="background-color: #f5f5f5;"><a href="contact.html">Contact</a></li>
 				</ul>
+			  </div>
 			</div>
-		</div>
-	</nav>
+		  </nav>
 	
-	<br><br>
+	<br><br><br>
 	<section class="page-section2 bg-dark-black">
 		<div class="relative container align-right polaroidup">
 		  <div class="row">
-			<div class="col-md-12">
+			<div class="col-md-12"><br>
 			  <h1 class="pt-20" style="font-family: fontAjust;">Contact Us</h1>
 			</div>
 		  </div>
