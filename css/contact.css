@@ -115,11 +115,10 @@ input{
 .form textarea{
 	background:none;
 }
-    .relative {
+.relative {
         position: relative;
-    }
-
-    .align-right{
+}
+.align-right{
         text-align: right !important;
     }
     
@@ -129,4 +128,9 @@ input{
         scroll-padding-left: 15px;
         margin-right: auto;
         margin-left: auto;
+    }
+.bg-dark-black{/* related to about us text block*/
+        padding: 20px 0px 0px 0px;
+        border-left: #ffffff 10px solid;
+        border-right: #ffffff 20px solid;
     }
