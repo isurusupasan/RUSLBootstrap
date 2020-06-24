@@ -115,4 +115,18 @@ input{
 .form textarea{
 	background:none;
 }
+    .relative {
+        position: relative;
+    }
 
+    .align-right{
+        text-align: right !important;
+    }
+    
+
+    .container{
+        padding-right: 15px;
+        scroll-padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
