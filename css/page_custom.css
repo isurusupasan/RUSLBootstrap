@@ -25,11 +25,15 @@
     }
     
     /* Set black background color, white text and some padding */
-    footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-    }
+    footer{
+  width: 100%;
+  background-color:#000;
+  color: #FFF;
+  padding: 50px;
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size: 10px;
+  }
     .bg-text {
       background-color: rgb(0,0,0); /* Fallback color */
       background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
