@@ -48,8 +48,9 @@
   background-color:#000;
   color: #FFF;
   padding: 50px;
-  font-size: 12px;
-  
+  padding-top:10px;
+  padding-bottom:10px;
+  font-size: 10px;
   }
   
   .fa{
@@ -188,3 +189,10 @@ footer2{
         border-left: #ffffff 10px solid;
         border-right: #ffffff 20px solid;
     }
+.research{
+	text-align:left;
+	height:80%;
+}
+.connect{
+	text-align:left;
+}
