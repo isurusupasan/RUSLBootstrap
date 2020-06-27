@@ -158,6 +158,8 @@ table td{
 .offices{
 	padding-left:100px;
 	padding-top:50px;
+	font-family:Times,'Times New Roman', serif;
+	font-size:18px;
 }
 input{
 	background:transparent;
