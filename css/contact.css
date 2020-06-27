@@ -1,11 +1,13 @@
-  
- .logo{
+  @import url(https://fonts.googleapis.com/css?family=Roboto:100,400,700,500,300,300italic);
+
+@import url(https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i);
+.logo{
 	  width: 100px;
 	  height:100px;
   }
   .navbar{
   margin-bottom:0;
-  margin-radius:0;
+  border-radius:0;
   background-color: #FFF;
  
   padding: 0.45% 0;
@@ -13,9 +15,18 @@
   border: 0;
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   border: 1px solid transparent;
   }
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+
+     /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
   
   .navbar-brand{
   float: left;
@@ -195,4 +206,8 @@ footer2{
 }
 .connect{
 	text-align:left;
+}
+.pt1{
+	font-family: 'Great Vibes';
+	font-size: 22px;
 }
