@@ -3,7 +3,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i);
 .logo{
 	  width: 100px;
-	  height:100px;
+	  height:140px;
   }
   .navbar{
   margin-bottom:0;
@@ -99,14 +99,20 @@
   }
   button{
 	  background:transparent;
-	  color: black;
+	  color:#d2a679;
 	  font-size: 20px;
 	  font-weight: bold;
 	  height: 50px;
 	  margin-top:20px;
-	  border-color:black;
-	  font-family: 'Great Vibes';font-size: 22px;	  
+	  border-color:#d2a679;
+	  font-family: 'Great Vibes';
+	  font-size: 22px;
+	  border-radius:25px;
   }
+button:hover{
+	background-color:#d2a679;
+	color:white;
+}
   form{
 	padding-top:10px;
 	padding-bottom:10px;
