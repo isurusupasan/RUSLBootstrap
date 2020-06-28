@@ -8,7 +8,7 @@
         background-color: #FFFFFF;
         padding: 0.45% 0;
         font-size: 1.4em;
-        min-height: 100px;
+        min-height: 150px;
         border: 1px solid transparent;
         margin-bottom: 0;
         border-radius: 0;
@@ -77,8 +77,8 @@
     }
 
     .logo{
-        width: 80px;
-        height:90px;
+        width: 140px;
+        height:140px;
     }
  
     .navbar-inverse .navbar-nav li a{
