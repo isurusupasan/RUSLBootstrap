@@ -8,7 +8,7 @@
         background-color: #FFFFFF;
         padding: 0.45% 0;
         font-size: 1.4em;
-        min-height: 80px;
+        min-height: 100px;
         border: 1px solid transparent;
         margin-bottom: 0;
         border-radius: 0;
@@ -26,14 +26,14 @@
     
     /* Set black background color, white text and some padding */
     footer{
-  width: 100%;
-  background-color:#000;
-  color: #FFF;
-  padding: 50px;
-  padding-top:10px;
-  padding-bottom:10px;
-  font-size: 10px;
-  }
+        width: 100%;
+        background-color:#000;
+        color: #FFF;
+        padding: 50px;
+        padding-top:10px;
+        padding-bottom:10px;
+        font-size: 10px;
+    }
     .bg-text {
       background-color: rgb(0,0,0); /* Fallback color */
       background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
@@ -78,7 +78,7 @@
 
     .logo{
         width: 80px;
-        height:70px;
+        height:90px;
     }
  
     .navbar-inverse .navbar-nav li a{
