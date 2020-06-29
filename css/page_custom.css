@@ -106,7 +106,7 @@
 
     #icon{
 	
-        max-width:150px;  
+        max-width: max-content;  
     }
     
 
@@ -285,3 +285,31 @@
 	font-family: 'Great Vibes';
 	font-size: 22px;
 }
+
+.navbar-inverse .navbar-nav li a{
+    color: #000;
+    }
+    .carousel-caption{
+    top: 70%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+    
+    }
+    
+    .container{
+    margin: 4% auto;
+    
+    }
+    
+    #icon{
+    max-width:250px;
+    margin: 1% auto;
+    }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
