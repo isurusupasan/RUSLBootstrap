@@ -9,7 +9,8 @@
   margin-bottom:0;
   border-radius:0;
   background-color:#002e3b;
- 
+  color:#99abb8;
+ 	
   padding: 0.45% 0;
   font-size: 1.4em;
   border: 0;
@@ -40,14 +41,15 @@
   }
   
   .navbar-inverse .navbar-nav .active a, .navbar-inverse navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
-  color:#000;
-  background-color: #FFF ;
+  color:#99abb8;
+  background-color:#002e3b;
   font-family:Times, "Times New Roman", serif;
   
   }
   .navbar-inverse .navbar-nav li a{
-  color: #000;
+  color:#99abb8;
   font-family:Times, "Times New Roman", serif;
+  background-color:#002e3b;
   }
   
   #icon{
