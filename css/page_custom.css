@@ -5,7 +5,8 @@
 
     .navbar{
        
-        background-color: #FFFFFF;
+        background-color:#002e3b;
+  	color:#99abb8;
         padding: 0.45% 0;
         font-size: 1.4em;
         min-height: 150px;
@@ -28,8 +29,8 @@
     /* Set black background color, white text and some padding */
     footer{
         width: 100%;
-        background-color:#000;
-        color: #FFF;
+        background-color:#002e3b;
+  	color:#99abb8;;
         padding: 50px;
         padding-top:10px;
         padding-bottom:10px;
@@ -89,6 +90,8 @@
     .navbar-inverse .navbar-nav li a{
         color: #000;
 	font-family:Times, "Times New Roman", serif;
+	background-color:#002e3b;
+  	color:#99abb8;
     }
 
     .navbar-brand{
