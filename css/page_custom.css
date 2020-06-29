@@ -6,14 +6,14 @@
     .navbar{
        
         background-color:#002e3b;
-  	color:#99abb8;
+  	    color:#99abb8;
         padding: 0.45% 0;
         font-size: 1.4em;
-        min-height: 150px;
+        min-height: 121px;
         border: 1px solid transparent;
         margin-bottom: 0;
         border-radius: 0;
-	font-family:Times, "Times New Roman", serif;
+	    font-family:Times, "Times New Roman", serif;
         }
 
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
@@ -25,12 +25,21 @@
       background-color: #f1f1f1;
       height: 100%;
     }
+
+    .navbar-brand{
+        float: left;
+        min-height:35px;
+        padding: 0 15px 2px;
+	    padding-left:15px;
+        
+    }
+
     
     /* Set black background color, white text and some padding */
     footer{
         width: 100%;
         background-color:#002e3b;
-  	color:#99abb8;;
+  	    color:#99abb8;;
         padding: 50px;
         padding-top:10px;
         padding-bottom:10px;
@@ -78,30 +87,29 @@
       .sidenav {
         height: auto;
         padding: 15px;
-      }
+    }
       .row.content {height:auto;} 
     }
 
     .logo{
         width: 100px;
-        height:140px;
+        height: 140px;
     }
  
     .navbar-inverse .navbar-nav li a{
         color: #000;
-	font-family:Times, "Times New Roman", serif;
-	background-color:#002e3b;
-  	color:#99abb8;
+        font-family:Times, "Times New Roman", serif;
+        background-color:#002e3b;
     }
 
-    .navbar-brand{
-        float: left;
-        min-height:35px;
-        padding: 0 15px 2px;
-	padding-left:15px;
+    .navbar-inverse .navbar-nav .active a, .navbar-inverse navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
+        color:#8dc4ec;
+        background-color:#002e3b;
+        font-family:Times, "Times New Roman", serif;
         
     }
 
+    
     .fa{
         padding: 15px;
         font-size: 30px;
@@ -246,7 +254,8 @@
         margin-bottom: 25px;
         width: inherit;
         height: 120px;
-        background-color: #F5F5F5;
+        background-color: #002e3b;
+        color: #ffffff;;
     }
 
     .entry-content{
@@ -295,7 +304,7 @@
     }
 
     .navbar-inverse .navbar-nav li a{
-    color: #000;
+    color: #99abb8;
     }
      
     .carousel-caption{
