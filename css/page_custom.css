@@ -22,7 +22,9 @@
      /* Set gray background color and 100% height */
     .sidenav {
       padding-top: 20px;
-      background-color: transparent;
+      margin-left: 10px;
+      margin-right: -10px;
+      background-color: #002e3b;
       height: 100%;
     }
 
@@ -62,8 +64,11 @@
       text-align: center;
     }
 
-    .bg-text .back{
-        top: 55% !important;        
+    .front{
+        background-color: #002e3b; /* Fallback color */
+        background-color: #00212bb9; /* Black w/opacity/see-through */
+        color: white;
+        font-weight: bold;       
     }
 
 
