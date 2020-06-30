@@ -242,3 +242,10 @@ div.polaroidup{/* controlling the about us box colur and size*/
   border-left: #ffffff 10px solid;
   border-right: #ffffff 20px solid;
 }
+
+.front{
+  background-color: #c98f23bd; /* Fallback color */
+  background-color: #1c272bc5; /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;       
+}
