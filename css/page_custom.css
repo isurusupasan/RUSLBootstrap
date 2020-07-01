@@ -373,7 +373,7 @@
       }
       /*>>>>>>>>>>>> overlay end<<<<<<<<<<<<<<<<*/
 
-  
+      /*>>>>>>>>>>>> video player <<<<<<<<<<<<<<<*/
       video {
         width: 100%;
         height: auto;
@@ -414,4 +414,12 @@
         .coll-12 {width: 100%;}
       }
       
-     
+/* >>>>>>>>>>>>>>>>>>> end of video player >>>>>>>>>>>>>>>>>>>*/
+/*>>>>>>>>>>>>>>>>> dropdown element customize <<<<<<<<<<<<<<<<<<<<<<<<<*/
+.dropdown-menu{
+    background-color: #002e3b;
+    font-size: 18px;
+    border: 1px solid rgba(31, 30, 30, 0.747);
+}
+
+/*>>>>>>>>>>>>>>>>> dropdown element customize end <<<<<<<<<<<<<<<<<<<<<<<<<*/
