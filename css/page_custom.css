@@ -214,8 +214,8 @@
 
     .bg-dark-black{/* related to about us text block*/
         padding: 20px 0px 0px 0px;
-        border-left: #ffffff 10px solid;
-        border-right: #ffffff 20px solid;
+        border-left: rgba(81, 124, 81, 0) 10px solid;
+        border-right: rgba(81, 124, 81, 0) 20px solid;       
     }
 
     .relative {
