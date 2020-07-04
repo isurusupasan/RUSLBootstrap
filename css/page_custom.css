@@ -423,3 +423,14 @@
 }
 
 /*>>>>>>>>>>>>>>>>> dropdown element customize end <<<<<<<<<<<<<<<<<<<<<<<<<*/
+/* css related to research content*/
+.research_site{
+	padding-left:50px;
+	padding-bottom:50px; 
+}
+.research_site_banner{
+	height:80px;
+}
+.research1{
+	padding-right:50px;
+}
