@@ -434,3 +434,61 @@
 .research1{
 	padding-right:50px;
 }
+
+/* css related to index page about_us part*/
+.img_btn{
+	border-radius:50%;
+}
+.about_video_btn{
+    position: relative;
+    font-size: 20px;
+    color: #fff;
+	padding-top:20px;
+}
+h1{
+	transition:all 4s ease;
+	font-family: Times,'Times New Roman', serif;
+}
+.about_topic{
+	padding-bottom:20px;
+	font-size:70px;
+	font-weight:700;
+	line-height:70px;
+}
+.about_video_text{
+	font-family:Times,'Times New Roman', serif; 
+	font-size:23px; 
+	padding-top:20px;
+}
+.about_video_text1{
+	font-family:Times,'Times New Roman', serif; 
+	font-size:20px; 
+	padding-top:30px;
+}
+button{
+	height:50px;
+	background-color:#002e3b;
+  	color:#99abb8;
+	font-size: 23px;
+	font-weight: bold;
+	margin-top:15px;
+	border-color:#99abb8;
+	font-family:Times,'Times New Roman', serif;
+}
+/*index page about_us page css end*/
+/*index page contact page css*/
+.index_contact_us{
+	font-family:Times,'Times New Roman', serif;
+	font-size:40px;
+	color:#002e3b;
+	height:150px;
+	background-color:#b4c2cc;
+	padding-top:40px;
+	margin-bottom:50px;
+}
+.index_contact_btn{
+	background-color:#b4c2cc;
+	height:150px;
+	margin-bottom:50px;
+	padding-top:40px;
+}
