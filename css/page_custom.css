@@ -5,15 +5,15 @@
 
     .navbar{
        
-        background-color:#002e3b;
-  	    color:#99abb8;
+        background-color:white;
+  	    color:Black;
         padding: 0.45% 0;
         font-size: 1.4em;
-        min-height: 121px;
+        min-height: 70px;
         border: 1px solid transparent;
         margin-bottom: 0;
         border-radius: 0;
-	    font-family:Times, "Times New Roman", serif;
+	    font-family:'Yantramanav', sans-serif;
         }
 
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
@@ -30,10 +30,13 @@
 
     .navbar-brand{
         float: left;
-        min-height:35px;
         padding: 0 15px 2px;
-	padding-left:35px;
-        
+		padding-top:20px;
+		padding-left:35px;
+		font-family:'Yantramanav', sans-serif;
+		font-size:30px;
+		font-weight:900;
+		height:70px;
     }
 
     
@@ -41,11 +44,13 @@
     footer{
         width: 100%;
         background-color:#002e3b;
-  	    color:#99abb8;;
+  	    color:#99abb8;
         padding: 50px;
         padding-top:10px;
         padding-bottom:10px;
         font-size: 10px;
+		font-family:'Sawarabi Gothic', sans-serif;
+
     }
         /* <<<<<<<<< Quote of the about us page>>>>>>>>>>>>*/
     .bg-text {
@@ -99,25 +104,26 @@
     }
       .row.content {height:auto;} 
     }
-
-    .logo{
-        width: 80px;
-        height: 100px;
-    }
  
     .navbar-inverse .navbar-nav li a{
-        color: #000;
-        font-family:Times, "Times New Roman", serif;
-        background-color:#002e3b;
+        color:black;
+        font-family:'Yantramanav', sans-serif;
+        background-color:white;
     }
 
     .navbar-inverse .navbar-nav .active a, .navbar-inverse navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
-        color:#8dc4ec;
-        background-color:#002e3b;
-        font-family:Times, "Times New Roman", serif;
+        color:gray;
+        background-color:white;
+        font-family:'Yantramanav', sans-serif;
         
     }
-
+	.navbar-nav li a:hover {
+        color:gray;
+        background-color:white;
+        font-family:'Yantramanav', sans-serif;
+		font-weight:400px;
+        
+    }
     
     .fa{
         padding: 15px;
@@ -247,6 +253,7 @@
         margin-right: -5px; 
         padding:5px !important; 
         /*border-bottom:#FFFFFF 5px solid;*/
+		height:400px !important;
     }
 
     div.polaroid {/* controlling the box type affect in objects*/
@@ -308,12 +315,12 @@
         text-align:left;
     }
     .pt1{
-        font-family:Times,'Times New Roman', serif;
+        font-family:'Yantramanav', sans-serif;
         font-size: 22px;
     }
 
     .navbar-inverse .navbar-nav li a{
-    color: #99abb8;
+    color:black;
     }
      
     .carousel-caption{
@@ -321,13 +328,20 @@
         transform: translateY(-50%);
         text-transform: uppercase;
     }
+	.carousel{
+		height:550px;
+	}
+	.carousel-inner{
+		height:550px;
+	}
         
     .container{
         margin: 4% auto;
+		font-family: Times,'Times New Roman', serif;
     }
         
     #icon{
-        max-width:250px;
+        max-width:100%;
         margin: 1% auto;
     }
     /* >>>>>>>>>>> index page project images glowing effect */
@@ -363,7 +377,7 @@
       }
 
       .container1 {
-        position: relative;        
+        position: relative;
       }
       
       .image {
@@ -434,6 +448,19 @@
 .research1{
 	padding-right:50px;
 }
+.btn-outline-secondary{
+	style="width:120px; 
+	height:40px; 
+	font-size: 20px; 
+	background:transparent; 
+	margin-top:15px; 
+	font-family:'Yantramanav', sans-serif; 
+	border-color:#cccccc;"
+}
+.btn-outline-secondary:hover{
+	background-color:#b3b3b3;
+	color:white;
+}
 
 /* css related to index page about_us part*/
 .img_btn{
@@ -454,6 +481,7 @@ h1{
 	font-size:70px;
 	font-weight:700;
 	line-height:70px;
+	font-family:'Sawarabi Gothic', sans-serif;
 }
 .about_video_text{
 	font-family:Times,'Times New Roman', serif; 
@@ -461,29 +489,28 @@ h1{
 	padding-top:20px;
 }
 .about_video_text1{
-	font-family:Times,'Times New Roman', serif; 
+	font-family:'Yantramanav', sans-serif; 
 	font-size:20px; 
 	padding-top:30px;
 }
-button{
+/*.btn{
+	width:250px;
 	height:50px;
-	background-color:#002e3b;
-  	color:#99abb8;
 	font-size: 23px;
+	background-color:#3498DB;
 	font-weight: bold;
 	margin-top:15px;
-	border-color:#99abb8;
 	font-family:Times,'Times New Roman', serif;
 }
 /*index page about_us page css end*/
 /*index page contact page css*/
 .index_contact_us{
-	font-family:Times,'Times New Roman', serif;
+	font-family:'Yantramanav', sans-serif;
 	font-size:40px;
 	color:#002e3b;
 	height:150px;
 	background-color:#b4c2cc;
-	padding-top:40px;
+	padding-top:45px;
 	margin-bottom:50px;
 }
 .index_contact_btn{
