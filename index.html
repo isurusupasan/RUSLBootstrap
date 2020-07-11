@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">
   <link href='https://fonts.googleapis.com/css?family=Great Vibes' rel='stylesheet'>
   <link rel="stylesheet" href="css/page_custom.css">
+  <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@400;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
   <style>
     
   
@@ -18,7 +20,7 @@
   </style>
 </head>
 <body>
-  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <nav class="navbar navbar-inverse">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -26,25 +28,23 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
         </button>
-        <a class="navbar-brand" href="#"><img src="img/logo.png" class="logo"></a>
+		<div class="navbar-brand">Data Science Research Center</div>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li class="active" style="background-color: #002e3b;"><a href="#">Home</a></li>
-          <li class="dropdown" style="background-color: #002e3b;">
+          <li class="active"><a href="#">Home</a></li>
+          <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="#" href="about_us.html">About Us<span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="members.html">Members</a></li>
             </ul>
           </li>
-          <li style="background-color: #002e3b;"><a href="research.html">Research</a></li>
-          <li style="background-color: #002e3b;"><a href="contact.html">Contact</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
-
-	<br><br><br><br><br><br>
 	<div id="myCarousel" class="carousel slide" data ride="carousel">
 		<ol class="carousel-indicators">
 			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -105,6 +105,7 @@
 					<b>Welcome to Research Centre</b>
 				</div>
 			</div>
+			
 			<div class="row">
 				<div class="col-sm-2 about_video_btn">
 					<a href="video/sample.mp4" class="lightbox-image" data-caption=""><img src="img/6.jpg"class="img_btn" width="100px" height="100px"></a>
@@ -124,7 +125,7 @@
 			<div class="row">
 				<div class="col-sm-12 btn">
 					<center>
-						<a href="about_us.html"><button>Discover More</button></a>
+						<a href="about_us.html"><button type="button" class="btn btn-info btn-lg" style="width:250px;height:50px;font-size: 23px;background-color:#3498DB;font-weight: bold;margin-top:15px;font-family:Times,'Times New Roman', serif;">Discover More</button></a>
 					</center>
 				</div>
 			</div>
@@ -134,34 +135,58 @@
 	<hr>
 	
 	<div class ="container-fluid text-center">
-		<h1 style="color=black;"><b>Research Fields</b></h1>
+		<h1 style="color=black;font-family:'Sawarabi Gothic', sans-serif;"><b>Research Fields</b></h1>
 		<div class="row" style="padding-top:15px;">
 			<div class="col-sm-12 col-md-3 container1">
-				<a href="research.html">
-				<img src="img/red.png" id="icon" class="hover-shadow cursor image">
-					<div class="overlay">Climate Change</div></a>
-				<div class="content" style="text-align:justify;"> <p> The rapid change of the climate is a vital issue that we need to address but are at an utter failure through the years. Global warming is known to be the defining issue of rapid climate change. Addressing the key facts resulting in global warming was never a global success.</p></div>	
+				<img src="img/red.png" id="icon">
+				<div class="research-site-topic" style="height:60px;"><h3 style="font-family: 'Yantramanav', sans-serif">Climate Change</h3></div>	
+				<div class="content" style="text-align:justify; height:150px;font-family: 'Sawarabi Gothic', sans-serif;"> <p> The rapid change of the climate is a vital issue that we need to address but are at an utter failure through the years. Global warming is known to be the defining issue of rapid climate change. Addressing the key facts resulting in global warming was never a global success.</p></div>
+				<div class="row">
+				<div class="d-flex text-right align-items-center" style="padding-right:20px;">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View More</button>
+                    </div>
+                  </div>
+				 </div>
 			</div>
 			
 			<div class="col-sm-12 col-md-3 container1">
-				<a href="research.html">
-				<img src="img/snow.png" id="icon" class="hover-shadow cursor image">
-					<div class="overlay">Food security and modern farming</div></a>
-				<div class="content" style="text-align:justify;"> <p> Number of hungry people all over the world is more than 820 million and ending hunger in the years to come will be challenging if not acted on sprightly.</p></div>
+				<img src="img/snow.png" id="icon">
+				<div class="research-sit-topic" style="height:60px;"><h3 style="font-family:'Yantramanav', sans-serif;">Food security and modern farming</h3></div>
+				<div class="content" style="text-align:justify; height:150px; font-family: 'Sawarabi Gothic', sans-serif;"> <p> Number of hungry people all over the world is more than 820 million and ending hunger in the years to come will be challenging if not acted on sprightly.</p></div>
+				<div class="row">
+				<div class="d-flex text-right align-items-center" style="padding-right:20px;">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View More</button>
+                    </div>
+                  </div>
+				</div>
 			</div>
 			
 			<div class="col-sm-12 col-md-3 container1">
-				<a href="research.html">
-				<img src="img/mountains.png" id="icon" class="hover-shadow cursor image">
-					<div class="overlay">Pharmaceuticals</div></a>
-				<div class="content" style="text-align:justify;"> <p> A chemical, whenever is combined in a proper ratio, consumed only the necessary, can be medicine unless poisoned. The world is in a habit of unprescribed gulping of antibiotics which is forecasted to lose man’s immunity faster than saving it.</p></div>	
+				<img src="img/mountains.png" id="icon">
+				<div class="reserach-site-topic" style="height:60px;"><h3 style="font-family: 'Yantramanav', sans-serif">Pharmaceuticals</h3></div>
+				<div class="content" style="text-align:justify; height:150px; font-family: 'Sawarabi Gothic', sans-serif;"> <p> A chemical, whenever is combined in a proper ratio, consumed only the necessary, can be medicine unless poisoned. The world is in a habit of unprescribed gulping of antibiotics which is forecasted to lose man’s immunity faster than saving it.</p></div>	
+				<div class="row">
+				<div class="d-flex text-right align-items-center" style="padding-right:20px;">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View More</button>
+                    </div>
+                </div>
+				</div>
 			</div>
 			
 			<div class="col-sm-12 col-md-3 container1">
-				<a href="research.html">
-				<img src="img/red.png" id="icon" class="hover-shadow cursor image">
-					<div class="overlay">Health related predictive analysis</div></a>
-				<div class="content" style="text-align:justify;"> <p> An everlasting field of professionals is the healthcare sector, where analytics are of higher importance.</p></div>
+				<img src="img/red.png" id="icon">
+				<div class="research-site-topic" style="height:60px;"><h3 style="font-family: 'Yantramanav', sans-serif">Health related predictive analysis</h3></div>
+				<div class="content" style="text-align:justify; height:150px; font-family: 'Sawarabi Gothic', sans-serif;"> <p> An everlasting field of professionals is the healthcare sector, where analytics are of higher importance.</p></div>
+			<div class="row">
+			<div class="d-flex text-right align-items-center" style="padding-right:20px;">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">View More</button>
+                    </div>
+            </div>
+			</div>
 			</div>
 		</div>
 	</div>
@@ -176,7 +201,7 @@
 			<center><b>Are you innovative, interested in research? Let us know</b></center>
 		</div>
 		<div class="col-sm-2 index_contact_btn">
-			<a href="contact.html.html"><button>Contact Us</button></a></button>
+			<a href="about_us.html"><button type="button" class="btn btn-info btn-lg" style="width:150px;height:50px;font-size: 23px;background-color:#3498DB;font-weight: bold;margin-top:15px;font-family:Times,'Times New Roman', serif;">Contact Us</button></a>
 		</div>
 	</div>
 	<!-- finish redirecting to contact us page-->
@@ -184,11 +209,18 @@
 	<footer>
 		<div class="row">
 			<div class="col-md-4 pt1">
-			<center>
-				<img src="img/logo.png" width="150" height="200"><br>
+			<div class="row">
+				<div class="col-md-1">
+				</div>
+				<div class="col-md-11">
+				<img src="img/logo.png" width="150" height="200"><br></div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
 				Faculty of Applied Sciences<br>
 				Rajarata University of Sri Lanka
-			</center>
+				</div>
+			</div>
 			</div>
 			
 			<div class="col-md-4 pt2">
@@ -319,7 +351,6 @@
 
 </body>
 </html>
-
 
 
 
