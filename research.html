@@ -1,51 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
     <title>Multidisciplinary Research and Development Centre</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-	<link href='https://fonts.googleapis.com/css?family=Great Vibes' rel='stylesheet'>
-    <link rel="stylesheet" href="css/page_custom.css">
-    <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@400;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	  <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@400;900&display=swap" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+	  <link rel="stylesheet" href="css/style.css">
+	  <link rel="stylesheet" href="css/research.css">
 </head>
 <body class="#">
-
-   <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>                        
-        </button>
-		<div class="navbar-brand">Data Science Research Center</div>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="index.html">Home</a></li>
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="#" href="about_us.html">About Us<span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="members.html">Members</a></li>
-            </ul>
-          </li>
-          <li class="active"><a href="#">Research</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><b>Data Science Research Centre</b></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown active">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Research
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#research-row">Climatic Changes</a>
+          <a class="dropdown-item" href="#research-row">Food security and modern farming</a>
+          <a class="dropdown-item" href="#research-row">Pharmaceuticals</a>
+		  <a class="dropdown-item" href="#research-row">Health related predictive analysis</a>
+        </div>
+      </li>
+	  <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About Us
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="about_us.html">Research Unit</a>
+          <a class="dropdown-item" href="members.html">Members</a>
+        </div>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
     <!--starting about us text in entire row-->
     <section class="page-section2 bg-dark-black">
-      <div class="relative container align-right polaroidup">
+      <div class="relative container-fluid align-right polaroidup">
         <div class="row">
           <div class="col-md-12"><br>
-            <h1 class="pt-20" style="font-family: Times,'Times New Roman', serif;">RESEARCH</h1>
+            <h1 class="pt-20">RESEARCH</h1>
           </div>
         </div>
       </div>
@@ -54,7 +62,7 @@
 	
 	<div class="row research_site">
 		<div class="row">
-			<div class="col-sm-12 research_site_banner" style="font-family:Times,'Times New Roman', serif; background-color:">
+			<div class="col-sm-12 research_site_banner">
 				<h2><b>Climate change</b></h2>
 			</div>
 		</div>
@@ -63,7 +71,7 @@
 				<div class="row">
 					<img src="img/climate_change1.jpg" width="100%" height="250">
 				</div>
-				<div class="row" style="font-size:20px; font-family:Times,'Times New Roman', serif;">
+				<div class="row" style="font-size:20px;>
 					<center><b>Reseach Topic1</b><br>
 					<a href="#">Read more</a></center></b>
 				</div>
@@ -72,7 +80,7 @@
 				<div class="row">
 					<img src="img/climate_change2.jpg" width="100%" height="250">
 				</div>
-				<div class="row" style="font-size:20px; font-family:Times,'Times New Roman', serif;">
+				<div class="row" style="font-size:20px;>
 					<center><b>Reseach Topic2</b><br>
 					<a href="#">Read more</a></center></b>
 				</div>
@@ -81,7 +89,7 @@
 				<div class="row">
 					<img src="img/climate_change3.jpg" width="100%" height="250">
 				</div>
-				<div class="row" style="font-size:20px; font-family:Times,'Times New Roman', serif;">
+				<div class="row" style="font-size:20px;>
 					<center><b>Reseach Topic3</b><br>
 					<a href="#">Read more</a></center></b>
 				</div>
@@ -90,7 +98,7 @@
 				<div class="row">
 					<img src="img/climate_change4.jpg" width="100%" height="250">
 				</div>
-				<div class="row" style="font-size:20px; font-family:Times,'Times New Roman', serif;">
+				<div class="row" style="font-size:20px;>
 					<center><b>Reseach Topic4</b><br>
 					<a href="#">Read more</a></center></b>
 				</div>
@@ -100,7 +108,7 @@
 	
 	<div class="row research_site">
 		<div class="row">
-			<div class="col-sm-12 research_site_banner" style="font-family:Times,'Times New Roman', serif; background-color:">
+			<div class="col-sm-12 research_site_banner">
 				<h2><b>Food Security and Modern Farming</b></h2>
 			</div>
 		</div>
@@ -109,7 +117,7 @@
 				<div class="row">
 					<img src="img/agriculture1.jpg" width="100%" height="250">
 				</div>
-				<div class="row" style="font-size:20px; font-family:Times,'Times New Roman', serif;">
+				<div class="row" style="font-size:20px;>
 					<center><b>Reseach Topic1</b><br>
 					<a href="#">Read more</a></center></b>
 				</div>
@@ -118,7 +126,7 @@
 				<div class="row">
 					<img src="img/agriculture2.jpg" width="100%" height="250">
 				</div>
-				<div class="row" style="font-size:20px; font-family:Times,'Times New Roman', serif;">
+				<div class="row" style="font-size:20px;>
 					<center><b>Reseach Topic2</b><br>
 					<a href="#">Read more</a></center></b>
 				</div>
@@ -127,7 +135,7 @@
 				<div class="row">
 					<img src="img/agriculture3.jpg" width="100%" height="250">
 				</div>
-				<div class="row" style="font-size:20px; font-family:Times,'Times New Roman', serif;">
+				<div class="row" style="font-size:20px;>
 					<center><b>Reseach Topic3</b><br>
 					<a href="#">Read more</a></center></b>
 				</div>
@@ -136,7 +144,7 @@
 				<div class="row">
 					<img src="img/agriculture4.jpg" width="100%" height="250">
 				</div>
-				<div class="row" style="font-size:20px; font-family:Times,'Times New Roman', serif;">
+				<div class="row" style="font-size:20px;>
 					<center><b>Reseach Topic4</b><br>
 					<a href="#">Read more</a></center></b>
 				</div>
@@ -146,7 +154,7 @@
 	
 	<div class="row research_site">
 		<div class="row">
-			<div class="col-sm-12 research_site_banner" style="font-family:Times,'Times New Roman', serif; background-color:">
+			<div class="col-sm-12 research_site_banner">
 				<h2><b>Pharmaceuticals</b></h2>
 			</div>
 		</div>
@@ -155,7 +163,7 @@
 				<div class="row">
 					<img src="img/pharma_1.jpg" width="100%" height="250">
 				</div>
-				<div class="row" style="font-size:20px; font-family:Times,'Times New Roman', serif;">
+				<div class="row" style="font-size:20px;>
 					<center><b>Reseach Topic1</b><br>
 					<a href="#">Read more</a></center></b>
 				</div>
@@ -164,7 +172,7 @@
 				<div class="row">
 					<img src="img/pharma_2.jpg" width="100%" height="250">
 				</div>
-				<div class="row" style="font-size:20px; font-family:Times,'Times New Roman', serif;">
+				<div class="row" style="font-size:20px;">
 					<center><b>Reseach Topic2</b><br>
 					<a href="#">Read more</a></center></b>
 				</div>
@@ -173,7 +181,7 @@
 				<div class="row">
 					<img src="img/pharma_3.jpg" width="100%" height="250">
 				</div>
-				<div class="row" style="font-size:20px; font-family:Times,'Times New Roman', serif;">
+				<div class="row" style="font-size:20px;">
 					<center><b>Reseach Topic3</b><br>
 					<a href="#">Read more</a></center></b>
 				</div>
@@ -182,7 +190,7 @@
 				<div class="row">
 					<img src="img/pharma_4.jpg" width="100%" height="250">
 				</div>
-				<div class="row" style="font-size:20px; font-family:Times,'Times New Roman', serif;">
+				<div class="row" style="font-size:20px;">
 					<center><b>Reseach Topic4</b><br>
 					<a href="#">Read more</a></center></b>
 				</div>
@@ -192,7 +200,7 @@
 	
 	<div class="row research_site">
 		<div class="row">
-			<div class="col-sm-12 research_site_banner" style="font-family:Times,'Times New Roman', serif; background-color:">
+			<div class="col-sm-12 research_site_banner">
 				<h2><b>Health Related Predictive Analysis<b></h2>
 			</div>
 		</div>
@@ -201,36 +209,36 @@
 				<div class="row">
 					<img src="img/health1.jpg" width="100%" height="250">
 				</div>
-				<div class="row" style="font-size:20px; font-family:Times,'Times New Roman', serif;">
+				<div class="row" style="font-size:20px;">
 					<center><b>Reseach Topic1</b><br>
-					<a href="#">Read more</a></center></b>
+					<a href="#">Read more</a></center>
 				</div>
 			</div>
 			<div class="col-sm-3 research1">
 				<div class="row">
 					<img src="img/health2.jpg" width="100%" height="250">
 				</div>
-				<div class="row" style="font-size:20px; font-family:Times,'Times New Roman', serif;">
+				<div class="row" style="font-size:20px;">
 					<center><b>Reseach Topic2</b><br>
-					<a href="#">Read more</a></center></b>
+					<a href="#">Read more</a></center>
 				</div>
 			</div>
 			<div class="col-sm-3 research1">
 				<div class="row">
 						<img src="img/health3.jpg" width="100%" height="250">
 				</div>
-				<div class="row" style="font-size:20px; font-family:Times,'Times New Roman', serif;">
+				<div class="row" style="font-size:20px;">
 					<center><b>Reseach Topic3</b><br>
-					<a href="#">Read more</a></center></b>
+					<a href="#">Read more</a></center>
 				</div>
 			</div>
 			<div class="col-sm-3 research1">
 				<div class="row">
 					<img src="img/health4.jpg" width="100%" height="250">
 				</div>
-				<div class="row" style="font-size:20px; font-family:Times,'Times New Roman', serif;">
+				<div class="row" style="font-size:20px;">
 					<center><b>Reseach Topic4</b><br>
-					<a href="#">Read more</a></center></b>
+					<a href="#">Read more</a></center>
 				</div>
 			</div>
 		</div>
@@ -238,78 +246,72 @@
 	
 	
 	<footer>
+	<div class="row">
+		<div class="col-md-2 pt1">
+			<img src="img/logo.png" width="150" height="200"><br>
+		</div>
+
+		<div class="col-md-3" style="font-size:20px; padding-left:0px;">
+		<br><br><br><br>
+			Faculty of Applied Sciences<br>
+			Rajarata University of Sri Lanka
+		</div>
+		<div class="col-md-3 pt2">
+		<h5><U>Contact Us</u></h5>
+		<br>
+		<table>
+			<tr>
+				<td><i class="fa fa-map-marker" style="font-size:20px;"></i>
+				<td>Faculty of Applied Sciences<br>Rajarata University<br>Sri Lanka</td>
+			</tr>
+			<tr>
+				<td><i class="fa fa-phone-square" style="font-size:20px;"></i></td>
+				<td>025 2266125</td>
+			</tr>
+			<tr>
+				<td><i class="fa fa-globe" style="font-size:20px;"></i></td>
+				<td><a href="#">www.datascience.rjt.ac.lk</a></td>
+			</tr>
+			<tr>
+				<td><i class="fa fa-envelope-o" style="font-size:20px;"></i></td>
+				<td><a href="#">dean@aps.rjt.ac.lk</a></td>
+			<tr>
+			<tr>
+				<td><i class="fa fa-fax" style="font-size:20px;"></i></td>
+				<td><a href="#">+94-25-2266120</a></td>
+			</tr>
+		</table>
+		</div>
+		
+		<div class="col-md-4">
 		<div class="row">
-			<div class="col-md-4 pt1">
-				<center>
-					<div class="row">
-						<div class="col-md-12 footer_img">
-							<img src="img/logo.png" width="150" height="200"><br>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 wording">
-							Faculty of Applied Sciences<br>
-							Rajarata University of Sri Lanka
-						</div>
-					</div>
-				</center>
-			</div>
-			
-			<div class="col-md-4 pt2">
-				<h5><U>Contact Us</u></h5>
-				<br>
-				<table>
-					<tr>
-						<td><i class="fa fa-map-marker" style="font-size:20px;"></i>
-						<td>Faculty of Applied Sciences<br>Rajarata University<br>Sri Lanka</td>
-					</tr>
-					<tr>
-						<td><i class="fa fa-phone-square" style="font-size:20px;"></i></td>
-						<td>025 2266125</td>
-					</tr>
-					<tr>
-						<td><i class="fa fa-globe" style="font-size:20px;"></i></td>
-						<td><a href="#">www.datascience.rjt.ac.lk</a></td>
-					</tr>
-					<tr>
-						<td><i class="fa fa-envelope-o" style="font-size:20px;"></i></td>
-						<td><a href="#">dean@aps.rjt.ac.lk</a></td>
-					<tr>
-					<tr>
-						<td><i class="fa fa-fax" style="font-size:20px;"></i></td>
-						<td><a href="#">+94-25-2266120</a></td>
-					</tr>
-				</table>
-			</div>
-			
-			<div class="col-md-4">
-				<div class="row">
-					<div class="col-md-12 research">
-					<h5><u>Research sites</u></h5>
-					<br>
-					<li><a href="#">Climate Change</a></li><br>
-					<li><a href="#">Food security and modern farming</a></li><br>
-					<li><a href="#">Pharmaceuticals</a></li><br>
-					<li><a href="#">Health related predictive analysis</a></li><br>
-					<br>
-					<br>
-					<br>
-					</div>
-				</div>
-				<hr>
-				<div class="row">
-					<div class="col-md-12 connect">
-						<center>
-							<table>
-								<tr>
-								  <td><a href="#" class="fa fa-linkedin"></a></td>
-								  <td><a href="#" class="fa fa-facebook"></a></td>
-								</tr>
-							</table>
-						</center>
-					</div>
-				</div>
+			<div class="col-md-12 research">
+			<h5><u>Research sites</u></h5>
+			<br>
+			<li><a href="research.html">Climate Change</a></li><br>
+			<li><a href="research.html">Food security and modern farming</a></li><br>
+			<li><a href="research.html">Pharmaceuticals</a></li><br>
+			<li><a href="research.html">Health related predictive analysis</a></li><br>
+			<br>
+			<br>
+			<br>
+			<hr>
 			</div>
 		</div>
-	</footer>
+		<div class="row">
+		<div class="col-md-12 connect">
+		<center>
+			<table>
+			<tr>
+			  <td><a href="#" class="fa fa-linkedin"></a></td>
+			  <td><a href="#" class="fa fa-facebook"></a></td>
+			</tr>
+			</table>
+		</center>
+		</div>
+		</div>
+		</div>
+	</div>
+  </footer>
+  
 </body>	
