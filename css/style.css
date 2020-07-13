@@ -50,3 +50,6 @@ footer{
 .card-body{
 	height:300px;
 }
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
