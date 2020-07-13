@@ -1,122 +1,55 @@
-  @import url(https://fonts.googleapis.com/css?family=Roboto:100,400,700,500,300,300italic);
+@import url(https://fonts.googleapis.com/css2?family=Yantramanav:wght@400;900&display=swap);
+*{
+	font-family:'Yantramanav', sans-serif;
+}
+/*research topic row*/
+div.polaroid {/* controlling the box type affect in objects*/
 
-@import url(https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i);
-.logo{
-	  width: 80px;
-	  height:100px;
-  }
-  .navbar{
-  margin-bottom:0;
-  border-radius:0;
-  background-color:#002e3b;
-  color:#99abb8;
- 	
-  padding: 0.45% 0;
-  font-size: 1.4em;
-  border: 0;
-  position: fixed;
-  min-height: 50px;
-  margin-bottom: 0;
-  border: 1px solid transparent;
-  }
-  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 450px}
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom: 25px;
+	width: 40%;
+	background-color: #F5F5F5;
+}
 
-     /* Set gray background color and 100% height */
-    .sidenav {
-      padding-top: 20px;
-      background-color: #f1f1f1;
-      height: 100%;
-    }
-  
-  .navbar-brand{
-  float: left;
-  min-height:105px;
-  padding: 0 2px 20px;
-  max-height: 15px;
-  max-width: 20px;
-  width: 20px;
-  height: 20px;
-  padding-left:35px;
-  }
-  
-  .navbar-inverse .navbar-nav .active a, .navbar-inverse navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
-  color:#8dc4ec;
-  background-color:#002e3b;
-  font-family:Times, "Times New Roman", serif;
-  
-  }
-  .navbar-inverse .navbar-nav li a{
-  color:#99abb8;
-  font-family:Times, "Times New Roman", serif;
-  background-color:#002e3b;
-  }
-  
-  #icon{
-  max-width:250px;
-  margin: 1% auto;
-  }
-  
-  footer{
-  width: 100%;
-  background-color:#002e3b;
-  color:#99abb8;
-  padding: 50px;
-  padding-top:10px;
-  padding-bottom:10px;
-  font-size: 10px;
-  }
-  
-  .fa{
-  padding: 15px;
-  font-size: 30px;
-  
-  
-  }
-  
-  .fa:hover {
-  color:#D5D5D5;
-  text-decoration:none;
-  
-  
-  }
-  
-  @media (max-width:600px){
-  
-	#icon{
-	
-		max-width:150px;  
-  
-	}
-	
-	h2{
-		font-size: 1.7em;
-	}
-  }
-  form-control{
+div.polaroidup{/* controlling the about us box colur and size*/
+	box-shadow: none;
+	margin-bottom: 25px;
+	width: inherit;
+	height: 100px;
+	background-color: #002e3b;
+	color: #ffffff;;
+}
+.align-right{
+    text-align: right !important;
+}
+.bg-dark-black{/* related to about us text block*/
+	padding: 0px 0px 0px 0px;
+	border-left: rgba(81, 124, 81, 0) 10px solid;
+	border-right: rgba(81, 124, 81, 0) 20px solid;       
+}
+
+.relative {
+	position: relative;
+}
+
+.align-right{
+	text-align: right !important;
+}
+header {/* header for about us text (incase we may need)*/
+        display: block;
+}
+.container{
+        padding-right: 15px;
+        scroll-padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+}
+/*contact topic ends*/
+form-control{
 	  width: 50%;
 	  border: 5px;
   }
-  input{
-	  height: 45px;
-  }
-  button{
-	  background:transparent;
-	  color:#d2a679;
-	  font-size: 20px;
-	  font-weight: bold;
-	  height: 50px;
-	  margin-top:20px;
-	  border-color:#d2a679;
-	  font-family:Times,'Times New Roman', serif;
-	  font-size: 22px;
-	  border-radius:25px;
-  }
-button:hover{
-	background-color:#d2a679;
-	color:white;
-}
-  form{
+form{
 	padding-top:10px;
 	padding-bottom:10px;
 	width:50%;
@@ -149,14 +82,6 @@ table social, td{
 table td{
 	padding:0px;
 }
-.banner{
-	margin-bottom:5px;
-	background-color:white;
-	font-family: Times,'Times New Roman', serif;
-}
-.description{
-	font-family:Times, "Times New Roman", serif;
-}
 .image{
 	padding-top:20px;
 	padding-bottom:20px;
@@ -167,88 +92,30 @@ table td{
 .offices{
 	padding-left:100px;
 	padding-top:50px;
-	font-family:Times,'Times New Roman', serif;
 	font-size:18px;
 }
 input{
 	background:transparent;
 	background:none;
 	color:#99abb8;
-	font-family: Times,'Times New Roman', serif;
 	font-size: 15px;
+	height: 45px;
 }
 .form input{
 	background:transparent;
 	background:none;
 	color:#99abb8;
-	font-family: Times,'Times New Roman', serif;
 	font-size: 15px;
 }
 .form textarea{
 	background:transparent;
 	background:none;
 	color:#99abb8;
-	font-family: Times,'Times New Roman', serif;
 	font-size: 15px;
 }
-
-.footer2{
-	text-align:left;
-}
-    .relative {
-        position: relative;
-    }
-
-    .align-right{
-        text-align: right !important;
-    }
-    
-
-    .container{
-        padding-right: 15px;
-        scroll-padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-	.bg-dark-black{/* related to about us text block*/
-        padding: 20px 0px 0px 0px;
-        border-left: #ffffff 10px solid;
-        border-right: #ffffff 20px solid;
-    }
-.research{
-	text-align:left;
-	height:80%;
-}
-.connect{
-	text-align:left;
-}
-.pt1{
-	font-family:Times,'Times New Roman', serif;
-	font-size: 22px;
-}
-
-div.polaroidup{/* controlling the about us box colur and size*/
-  box-shadow: none;
-  margin-bottom: 25px;
-  width: inherit;
-  height: 120px;
-  background-color: #002e3b;
-  color: #ffffff;;
-}
-
-.relative {
-  position: relative;
-}
-
-.bg-dark-black{/* related to about us text block*/
-  padding: 20px 0px 0px 0px;
-  border-left: #ffffff 10px solid;
-  border-right: #ffffff 20px solid;
-}
-
-.front{
-  background-color: #c98f23bd; /* Fallback color */
-  background-color: #1c272bc5; /* Black w/opacity/see-through */
+/*.front{
+  background-color: #c98f23bd; /* Fallback color
+  background-color: #1c272bc5; /* Black w/opacity/see-through 
   color: white;
   font-weight: bold;       
-}
+}*/ 
