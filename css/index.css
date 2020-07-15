@@ -37,19 +37,22 @@ h1{
 }
 /*end about us*/
 /*index page contact page css*/
-.index_contact_us{
+.alert-dark{
 	font-family:'Yantramanav', sans-serif;
 	font-size:40px;
 	color:#002e3b;
-	height:150px;
-	background-color:#b4c2cc;
-	padding-top:45px;
-	margin-bottom:50px;
+	width:100%;
+	padding-top:10px;
 }
 .index_contact_btn{
 	background-color:#b4c2cc;
 	height:150px;
 	margin-bottom:50px;
 	padding-top:40px;
+	padding-left:0px;
+}
+.btn-info :hover{
+	background-color:#002e3b;
+	color:#b4c2cc;
 }
 /*end contact*/
