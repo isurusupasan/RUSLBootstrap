@@ -16,8 +16,8 @@ div.polaroidup{/* controlling the about us box colur and size*/
 	margin-bottom: 25px;
 	width: inherit;
 	height: 100px;
-	background-color: #002e3b;
-	color: #ffffff;;
+	background-color: rgb(245, 245, 245);
+	color:#000;
 }
 .align-right{
     text-align: right !important;
