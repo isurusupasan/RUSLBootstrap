@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Yantramanav:wght@400;900&display=swap);
 /* controlling margins of devided bolocks*/
 *{
 	font-family:'Yantramanav', sans-serif;
@@ -37,6 +38,7 @@ footer{
 	font-family:'Yantramanav', sans-serif;
 	font-size: 22px;
 	padding-right:0px;
+	padding-top:50px;
 }
 @media screen and (max-width: 767px) {
       .sidenav {
