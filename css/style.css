@@ -14,7 +14,7 @@ footer{
 	padding: 50px;
 	padding-top:10px;
 	padding-bottom:10px;
-	font-size: 10px;
+	font-size: 12px;
 	font-family:'Sawarabi Gothic', sans-serif;
 
 }
@@ -55,3 +55,4 @@ footer{
 .dropdown:hover .dropdown-menu {
 	display: block;
 }
+
