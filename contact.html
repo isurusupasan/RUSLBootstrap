@@ -61,11 +61,31 @@
 	  </section>
 	
 	<div class="row">
-		<div class="col-md-6 image">
-			<img class="info" src="img/contact.jpg" width="100%" height="100%">
+	<div class="col-md-1">
+	</div>
+		<div class="col-md-8">
+				<div class="description">
+					<h3><i>Are you innovative, interested in research?<br> Let us know</i></h3>
+				</div>
+				
+				<div class = "form">
+				<center>
+				<form "method="post" action="contact-form-handler.php">
+					<!--<label>Name</label>-->
+					<input type="text" name="name" placeholder="Your Name" class="form-control" required><br>
+					<!--<label>E-mail address</label>-->
+					<input type="text" name="email" placeholder="Your e-mail" class="form-control" required><br>
+					<!--<label>Subject</label><br>-->
+					<input type="text" name="subject" placeholder="Place your message subject here" class="form-control"><br> 
+					<!--<label>Message</label>-->
+					<textarea name="message" placeholder="Place your messege here" class="form-control" style="height:200px" required></textarea><br>
+					
+					<button type="button" class="btn btn-outline-primary" style="width:100px;height:50px;font-size:23px;">Submit</button>   
+				</form></center>
+			</div>
 		</div>
 		
-		<div class="col-md-6 offices">
+		<div class="col-md-3 offices">
 			<table>
 			<tr>
 			<td><i class="fa fa-map-marker"></i></td><td> Faculty of applied sciences<br>Rajarata University<br>Sri Lanka</td>
@@ -100,31 +120,27 @@
 		</div>
 	</div>-->
 	
-	<div style="background-size:100%;background-repeat:no-repeat;">
+	<!--<div style="background-size:100%;background-repeat:no-repeat;">
 		<div class="front">
 			<div class="row">
 				<div class="col-md-12 description">
-					<center><font size="25px" color=""><i>Are you innovative, interested in research?<br> Let us know</i></font></center>
+					<center><font size="15px" color=""><i>Are you innovative, interested in research?<br> Let us know</i></font></center>
 				</div>
 			</div>
 			
 			<div class = "form">
 				<center>
 				<form "method="post" action="contact-form-handler.php">
-					<!--<label>Name</label>-->
 					<input type="text" name="name" placeholder="Your Name" class="form-control" required><br>
-					<!--<label>E-mail address</label>-->
 					<input type="text" name="email" placeholder="Your e-mail" class="form-control" required><br>
-					<!--<label>Subject</label><br>-->
 					<input type="text" name="subject" placeholder="Place your message subject here" class="form-control"><br> 
-					<!--<label>Message</label>-->
 					<textarea name="message" placeholder="Place your messege here" class="form-control" style="height:200px" required></textarea><br>
 					
 					<button type="button" class="btn btn-outline-primary" style="width:100px;height:50px;font-size:23px;">SEND</button>   
 				</form>
 			</div>
 		</div>
-	</div>
+	</div>-->
 	
     <footer>
 	<div class="row">
@@ -132,7 +148,7 @@
 			<img src="img/logo.png" width="150" height="200"><br>
 		</div>
 
-		<div class="col-md-3" style="font-size:20px; padding-left:0px; padding-top:180px; padding-right:0px;">
+		<div class="col-md-3" style="font-size:20px; padding-left:0px; padding-top:50px; padding-right:0px;">
 			<h3>Faculty of Applied Sciences</h3>
 			Rajarata University of Sri Lanka
 		</div>
@@ -172,8 +188,6 @@
 			<li><a href="research.html">Food security and modern farming</a></li><br>
 			<li><a href="research.html">Pharmaceuticals</a></li><br>
 			<li><a href="research.html">Health related predictive analysis</a></li><br>
-			<br>
-			<br>
 			<br>
 			<hr>
 			</div>
