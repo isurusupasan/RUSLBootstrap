@@ -52,7 +52,7 @@ form-control{
 form{
 	padding-top:10px;
 	padding-bottom:10px;
-	width:50%;
+	width:85%;
 	margin:50px;
 	outline-color:black;
 	outline:5px;
@@ -90,8 +90,8 @@ table td{
 	
 }
 .offices{
-	padding-left:100px;
-	padding-top:50px;
+	padding-left:0px;
+	padding-top:100px;
 	font-size:18px;
 }
 input{
