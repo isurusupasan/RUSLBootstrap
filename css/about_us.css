@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Yantramanav:wght@400;900&display=swap);
 *{
-	font-family:'Yantramanav', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
 /*research topic row*/
 div.polaroid {/* controlling the box type affect in objects*/
@@ -14,7 +14,7 @@ div.polaroid {/* controlling the box type affect in objects*/
 div.polaroidup{/* controlling the about us box colur and size*/
 	box-shadow: none;
 	margin-bottom: 25px;
-	width: inherit;
+	width:100%;
 	height: 100px;
 	background-color:rgb(245, 245, 245);
 	color: #000;
@@ -38,7 +38,7 @@ div.polaroidup{/* controlling the about us box colur and size*/
 header {/* header for about us text (incase we may need)*/
         display: block;
 }
-.container{
+.container-fluid{
         padding-right: 15px;
         scroll-padding-left: 15px;
         margin-right: auto;
