@@ -56,3 +56,21 @@ h1{
 	color:#b4c2cc;
 }
 /*end contact*/
+/*css related to cards*/
+.card-text{
+	font-family:'Yantramanav', sans-serif;
+}
+.card-body{
+	padding-top:150px;
+	color:white;
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+/*css related to card end*/
+.research-head{
+	font-size:40px;
+	font-weight:400;
+}
