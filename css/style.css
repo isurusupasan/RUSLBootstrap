@@ -59,13 +59,13 @@ footer{
 	  height:auto;
 	} 
 }
-.card-body{
-	height:300px;
-}
 .dropdown:hover .dropdown-menu {
 	display: block;
 }
 h4{
 	font-weight:700;
+}
+hr{
+    border-top: 1px solid #99abb8;
 }
 
