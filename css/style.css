@@ -9,10 +9,15 @@ body{
 	font-family: 'Poppins', sans-serif;
 	overflow-x:hidden;
 }
-.row {
+.row{
         margin-right: -15px;
         margin-left: -15px;
 }
+
+.row1{
+	background-color: #ebebeb;
+}
+
 footer{
 	width: 100%;
 	background-color:#002e3b;
