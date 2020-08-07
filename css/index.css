@@ -83,6 +83,9 @@ a:link {
   background-color: transparent;
   text-decoration: none;
 }
+a {
+	color: #b4aeae;
+  }
 /*css related to card end*/
 .research-head{
 	font-size:40px;
