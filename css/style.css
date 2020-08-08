@@ -74,3 +74,11 @@ hr{
     border-top: 1px solid #99abb8;
 }
 
+.front{
+	background-color: #dfe1e21a; /* Fallback color */
+	background-color: #a52d2a14; /* Black w/opacity/see-through */
+	
+	color: white;
+	font-weight: normal;
+	text-shadow: 1px 7px 11px #00000e9c;
+}
