@@ -3,11 +3,24 @@
 	font-family: 'Poppins', sans-serif;
 }
 .carousel{
-		height:550px;
+		height:720px;
 }
 .carousel-inner{
-		height:550px;
+		height:720px;
 }
+.carousel-item{
+	height: 100vh;
+}
+
+.carousel-caption {
+    top: 50px;
+    bottom: auto;
+    left: 150px;
+	text-align:left !important;
+	/*right: 650px;*/
+	
+}
+
 /*index page about us*/
 .img_btn{
 	border-radius:50%;
