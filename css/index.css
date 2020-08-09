@@ -3,13 +3,15 @@
 	font-family: 'Poppins', sans-serif;
 }
 .carousel{
-		height:720px;
+		height:768px;
+		width: 100%;
 }
 .carousel-inner{
-		height:720px;
+		height:768px;
+		width: 100%;
 }
 .carousel-item{
-	height: 100vh;
+	height: 150vh;
 }
 
 .carousel-caption {
@@ -85,6 +87,14 @@ h1{
 .btn-info :hover{
 	background-color:#002e3b;
 	color:#b4c2cc;
+}
+.btn-bg{
+	
+	background-color:#0769a9 !important;
+}
+.btn-bg:hover{
+	background-color: white !important;
+	color: #0769a9;
 }
 /*end contact*/
 /*css related to cards*/
