@@ -2,25 +2,24 @@
 *{
 	font-family: 'Poppins', sans-serif;
 }
-.carousel{
-		height:768px;
-		width: 100%;
-}
-.carousel-inner{
-		height:768px;
-		width: 100%;
-}
-.carousel-item{
-	height: 150vh;
-}
 
 .carousel-caption {
-    top: 50px;
+    top: 5%;
     bottom: auto;
-    left: 150px;
+    left: 10%;
 	text-align:left !important;
 	/*right: 650px;*/
 	
+}
+
+@media all and (min-width: 959px) {
+    .deskContent {display:block;}
+    .phoneContent {display:none;}
+}
+
+@media all and (max-width: 479px) {
+    .deskContent {display:none;}
+    .phoneContent {display:block;}
 }
 
 /*index page about us*/
