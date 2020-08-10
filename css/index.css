@@ -56,8 +56,9 @@ h1{
 	line-height:70px;
 }
 .about_video_text{
-	font-size:23px; 
+	font-size:20px; 
 	padding-top:20px;
+	font-family:'Yantramanav', sans-serif;
 }
 .about_video_text1{
 	font-size:20px; 
