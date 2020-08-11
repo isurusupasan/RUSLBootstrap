@@ -52,14 +52,14 @@ h1{
 	font-family:'Yantramanav', sans-serif;
 }
 .about_video_text1{
-	font-size:20px; 
+	font-size:18px; 
 	padding-top:30px;
 }
 /*end about us*/
 /*index page contact page css*/
 .alert-dark{
 	font-family:'Yantramanav', sans-serif;
-	font-size:40px;
+	font-size:30px;
 	color: #f1fcff;
 	width:100%;
 	padding-top:10px;
