@@ -18,13 +18,15 @@ body{
         margin-right: -15px;
         margin-left: -15px;
 }
-
 .row1{
 	background-color: #ebebeb;
 	margin-right: -15px;
 	margin-left: -15px;
 }
-
+.navbar-light .navbar-nav .active .nav-link{
+	border-bottom:5px solid #5bc0eb;
+	color: #5bc0eb;
+}
 footer{
 	width: 100%;
 	background-color:#002e3b;
