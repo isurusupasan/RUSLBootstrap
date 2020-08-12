@@ -128,4 +128,7 @@ h1{
 .spacer{
 	padding: 50px 0px;
 }
-
+.alert-dark table tr td a .btn-outline-light:hover{
+	background-color: #fff;
+	color: #3da4b9c9; 
+}
