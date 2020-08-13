@@ -122,12 +122,14 @@ hr{
 
 @media all and (min-width: 601px) {
     .deskContent {display:block;}
-    .phoneContent {display:none;}
+	.phoneContent {display:none;}
+	.slider-logo{height: 60px;width: 60px;}
 }
 
 @media all and (max-width: 600px) {
     .deskContent {display:none;}
-    .phoneContent {display:block;}
+	.phoneContent {display:block;}
+	.slider-logo{height: 30px;width: 30px;}
 }
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/

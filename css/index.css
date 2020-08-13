@@ -11,6 +11,16 @@
 	/*right: 650px;*/
 	
 }
+.caption-logo{
+	bottom: 0% !important;
+	right: 0% !important;
+	position: absolute;
+}
+
+.slider-logo{
+	height: none;
+	width: none;
+}
 
 
 /*index page about us*/
