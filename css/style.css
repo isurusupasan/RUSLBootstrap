@@ -124,12 +124,14 @@ hr{
     .deskContent {display:block;}
 	.phoneContent {display:none;}
 	.slider-logo{height: 60px;width: 60px;}
+	.spacer{padding: 50px 0px;}
 }
 
 @media all and (max-width: 600px) {
     .deskContent {display:none;}
 	.phoneContent {display:block;}
 	.slider-logo{height: 30px;width: 30px;}
+	.spacer{padding: 20px 0px;}
 }
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/

@@ -108,7 +108,7 @@ h1{
 }
 
 .card-body1{
-	padding-top:100px;
+	padding-top:10px;
 	color:white;
 }
 
@@ -136,9 +136,20 @@ h1{
 }
 
 .spacer{
-	padding: 50px 0px;
+	padding: none;
 }
 .alert-dark table tr td a .btn-outline-light:hover{
 	background-color: #fff;
 	color: #3da4b9c9; 
+}
+
+.card-prop{
+	width: 100%;
+	height: 220px;
+}
+.card-prop-def{
+	padding-left: 5%;
+	padding-right: 5%;
+	width: 100%;
+	height: 220px;
 }
