@@ -72,11 +72,11 @@ form{
 .contact{
 	background-color: none;
 }
-td{
+.td-hight{
 	height:50px;
 	
 }
-table social, td{
+.table-social{
 	padding:10px;
 }
 table td{

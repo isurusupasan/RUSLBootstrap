@@ -43,7 +43,7 @@ footer{
 /* footer link colour change >>>>>>>>>>>>>>>>>>>>>*/
 
 a:link {
-	color: white;
+	/*color: white;*/
 	background-color: transparent;
 	text-decoration: none;
 }
@@ -54,7 +54,7 @@ a {
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
 .fa{
-        padding: 15px;
+        padding: 5px;
         font-size: 30px;
 }
 
@@ -136,3 +136,9 @@ hr{
 }
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.copyright{
+	font-family: 'Poppins', sans-serif !important;
+	text-align: center !important;
+	font-size: 15px;
+}
