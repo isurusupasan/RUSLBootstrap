@@ -24,8 +24,11 @@ body{
 	margin-left: -15px;
 }
 .navbar-light .navbar-nav .active .nav-link{
-	border-bottom:5px solid #5bc0eb;
+	/*border-bottom:5px solid #5bc0eb;
+	color: #5bc0eb;*/
+	text-decoration: underline;
 	color: #5bc0eb;
+	text-underline-position: under;
 }
 footer{
 	width: 100%;
