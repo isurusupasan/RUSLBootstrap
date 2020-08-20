@@ -103,14 +103,28 @@ h1{
 	font-family:'Yantramanav', sans-serif;
 }
 .card-body{
-	padding-top:150px;
+	padding-top:none;
 	color:white;
 }
 
-.card-body1{
-	padding-top:10px;
-	color:white;
-}
+.middle {
+	transition: .5s cubic-bezier(0.43, -0.25, 0.52, 1.37);
+	position: absolute;
+	top: none;
+	left: 25%;
+	transform: translate(-20%, -40%);
+	-ms-transform: translate(-50%, -50%);
+  }
+
+  .card:hover .image {
+	opacity: 0.5;
+  }
+  
+  .card-body:hover .middle {
+	opacity: 1;
+	color: rgb(0, 0, 0);
+	font-weight: bolder;	
+  }
 
 /*css related to card end*/
 .research-head{
@@ -144,12 +158,22 @@ h1{
 }
 
 .card-prop{
-	width: 100%;
-	height: 220px;
+	width: none;
+	height: none;
+	padding-left: none;
+	padding-right: none;
+	
 }
 .card-prop-def{
-	padding-left: 5%;
-	padding-right: 5%;
-	width: 100%;
-	height: 220px;
+
+	width: none;
+	height: none;
+}
+
+.card-hight{
+	height: none;
+}
+
+.card-bold{
+	font-weight: none;
 }

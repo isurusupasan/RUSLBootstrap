@@ -128,6 +128,10 @@ hr{
 	.phoneContent {display:none;}
 	.slider-logo{height: 60px;width: 60px;}
 	.spacer{padding: 50px 0px;}
+	.middle{top: 60%;}
+	.card-body1{padding-top: 150px;}
+	.card-prop{width: 18rem;height: 420px;}
+	.card-hight{height: 200px;}
 }
 
 @media all and (max-width: 600px) {
@@ -136,6 +140,12 @@ hr{
 	.slider-logo{height: 30px;width: 30px;}
 	.spacer{padding: 20px 0px;}
 	.card{border: none;}
+	.middle{top: 50%;}
+	.card-body1{padding-top: 10px;}
+	.card-prop{width: 100%;height: 220px;padding-right: 5%;padding-left: 5%;}
+	.card-prop-def{width: 100%;height: 220px;}
+	.card-hight{height: 100px;}
+	.card-bold{font-weight: bold;}
 }
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
