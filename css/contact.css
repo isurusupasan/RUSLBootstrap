@@ -50,9 +50,10 @@ form-control{
 	  border: 5px;
   }
 form{
-	padding-left:100px;
 	padding-top:10px;
 	padding-bottom:10px;
+	padding-left:50px;
+	padding-right:50px;
 	width:85%;
 	margin:50px;
 	outline-color:black;
@@ -61,6 +62,7 @@ form{
 	color:black;
 	transition: all 4s ease-in-out;
 	font-size:20px;
+	border:2px solid #F2F3F4;
 }
 .info{
 	width:100%;
