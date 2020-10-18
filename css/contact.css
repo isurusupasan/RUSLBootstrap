@@ -50,6 +50,7 @@ form-control{
 	  border: 5px;
   }
 form{
+	padding-left:100px;
 	padding-top:10px;
 	padding-bottom:10px;
 	width:85%;
