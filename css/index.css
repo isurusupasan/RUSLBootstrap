@@ -154,6 +154,9 @@ h1{
 .spacer{
 	padding: none;
 }
+.alert-dark{
+	border:none;
+}
 .alert-dark table tr td a .btn-outline-light:hover{
 	background-color: #fff;
 	color: #3da4b9c9; 
