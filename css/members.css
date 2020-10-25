@@ -1,15 +1,28 @@
-*{
+/**{
 	font-family:'Yantramanav', sans-serif;
+}*/
+*{
+	font-family: 'Poppins', sans-serif !important;
+	
 }
-h2{
+h5{
+	font-weight: 500 !important;
+}
+
+footer{
+	font-weight: none !important;
+}
+/*
+h2
+{
 		font-size: 1.7em;
 }
 	
-header {/* header for about us text (incase we may need)*/
+header {
         display: block;
 }
 
-h1.entry-title { /* header for about us text (incase we may need)*/
+h1.entry-title { 
         font-weight: 600;
         font-size: 30px;
         text-transform: uppercase;
@@ -17,7 +30,7 @@ h1.entry-title { /* header for about us text (incase we may need)*/
         margin-bottom: 30px;
         position: relative;
 }
-div.polaroid {/* controlling the box type affect in objects*/
+div.polaroid {
 
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	margin-bottom: 25px;
@@ -25,7 +38,7 @@ div.polaroid {/* controlling the box type affect in objects*/
 	background-color: #F5F5F5;
 }
 
-div.polaroidup{/* controlling the about us box colur and size*/
+div.polaroidup{
 	box-shadow: none;
 	margin-bottom: 25px;
 	width: inherit;
@@ -70,7 +83,7 @@ scroll-padding-left: 15px;
 margin-right: auto;
 margin-left: auto;
 }
-.bg-dark-black{/* related to about us text block*/
+.bg-dark-black{
 	padding: 0px 0px 0px 0px;
 	border-left: rgba(81, 124, 81, 0) 10px solid;
 	border-right: rgba(81, 124, 81, 0) 20px solid;       
@@ -82,7 +95,7 @@ margin-left: auto;
 
 .align-right{
 	text-align: right !important;
-}
+}*/
 .img-fluid, .img-thumbnail {
 	max-width: 100%;
 	height: 100%;
