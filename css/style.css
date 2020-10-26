@@ -42,6 +42,9 @@ footer{
 	font-style: normal !important;
 
 }
+.dropdown-toggle::after{
+	border-top: none !important;
+}
 
 /* footer link colour change >>>>>>>>>>>>>>>>>>>>>*/
 
