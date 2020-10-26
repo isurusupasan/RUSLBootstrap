@@ -121,9 +121,20 @@ hr{
 	font-weight: normal;
 	text-shadow: 1px 7px 11px #00000e9c;
 }
-/* responsive mobile view >>>>>>>>>*/
 
-@media all and (min-width: 601px) {
+
+/* responsive mobile view >>>>>>>>>*/
+@media all and (min-width: 821px){
+	.corousel-title1{font-size: none;}
+
+}
+
+@media all and (max-width: 820px){
+	.corousel-title1{font-size: 25px;}
+
+}
+
+@media all and (min-width: 621px) {
     .deskContent {display:block;}
 	.phoneContent {display:none;}
 	.slider-logo{height: 60px;width: 60px;}
@@ -134,7 +145,8 @@ hr{
 	.card-hight{height: 200px;}
 }
 
-@media all and (max-width: 600px) {
+
+@media all and (max-width: 620px) {
     .deskContent {display:none;}
 	.phoneContent {display:block;}
 	.slider-logo{height: 30px;width: 30px;}
