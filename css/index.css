@@ -11,6 +11,13 @@
 	/*right: 650px;*/
 	
 }
+
+.corousel-title1{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
+	font-size: none;
+}
+
 .caption-logo{
 	bottom: 0% !important;
 	right: 0% !important;
@@ -20,6 +27,7 @@
 .slider-logo{
 	height: none;
 	width: none;
+	margin: 5px;
 }
 
 
