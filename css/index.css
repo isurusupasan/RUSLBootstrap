@@ -90,7 +90,7 @@ h1{
 	padding-top:10px;
 }
 .alert-dark{
-	background-color: #3da4b9c9;
+	background-color: #009affa8;
 	border-color: #39526c;
 }
 .index_contact_btn{
@@ -203,4 +203,13 @@ h1{
 }
 .card-img .btn-outline-light a{
 	color:white;
+	
+}
+
+.card-img .btn-outline-light{
+	background-color: #00000030;
+}
+
+.zoom .bg-edit{
+	background-color: #00000030;
 }
