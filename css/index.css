@@ -49,6 +49,11 @@
 	padding-top:20px;
 }
 
+.img-size{
+	object-fit: cover;
+	object-position: center center;
+}
+
 h1{
 	transition:all 4s ease;
 }
