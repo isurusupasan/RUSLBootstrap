@@ -67,3 +67,6 @@ header {/* header for about us text (incase we may need)*/
         margin-right: auto;
         margin-left: auto;
 }
+.research1 img{
+	border-radius:0.25rem;
+}
