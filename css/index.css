@@ -12,6 +12,13 @@
 	
 }
 
+.carousel-indicators li {
+	width: 15px;
+	height: 15px;
+	border-radius: 100%;
+	background-color: whitesmoke;
+  }
+
 .corousel-title1{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 600;
@@ -99,7 +106,8 @@ h1{
 }
 .btn-bg{
 	
-	background-color:#0769a9 !important;
+	background-color:#135dd8 !important;
+	color: white;
 }
 .btn-bg:hover{
 	background-color: white !important;
