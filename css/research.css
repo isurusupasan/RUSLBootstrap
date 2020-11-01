@@ -48,10 +48,9 @@
 	margin: 20px;
 	
 }
-:root{
-	animation-delay: 7s;
+.animate__bounceIn{
 	--animate-delay: 7s;
-	--animate-duration: 7s;
+	--animate-duration: 2s;
 }
 .card-text .text-muted a{
 	font-size:20px;
