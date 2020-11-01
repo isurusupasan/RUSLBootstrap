@@ -46,6 +46,12 @@
 	font-size:20px;
 	color:red;
 }
+.btn-outline-light{
+	border:1px solid #000;
+}
+button a{
+	color:#000;
+}
 
 
 /* make resposive*/
