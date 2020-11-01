@@ -59,8 +59,14 @@
 .btn-outline-light{
 	border:1px solid #000;
 }
+.btn-outline-light:hover{
+	background-color:#31ADFF;
+}
 button a{
 	color:#000;
+}
+button a:hover{
+	color:white;
 }
 
 
