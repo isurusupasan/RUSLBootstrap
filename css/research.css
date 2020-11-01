@@ -59,9 +59,7 @@ button a{
 	color:#000;
 }
 
-.card-bottom{
-	margin-top: none;
-}
+
 
 .caption-logo{
 	bottom: 0% !important;
@@ -90,12 +88,12 @@ button a{
 /* make resposive>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 @media all and (max-width: 645px) {
-	
+	.slider-logo{width: 40px !important;height: 40px !important;}
 }
 
 @media all and (min-width: 646px) {
 	#main{background: url(../img/14.jpg);background-size: cover;}
-	.card-bottom{margin-top: 80px;}
+	
 	.slider-logo{width: 40px !important;height: 40px !important;}
 }
 
