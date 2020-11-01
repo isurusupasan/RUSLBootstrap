@@ -62,9 +62,10 @@ button a{
 
 
 .caption-logo{
-	bottom: 0% !important;
-	left: 5% !important;
+	bottom: none;
+	left: none;
 	position: absolute;
+	right: none;;
 }
 
 .slider-logo{
@@ -74,8 +75,13 @@ button a{
 }
 .button-position{
 	bottom: 10px;
-	right: 5%;
+	right: none;
 	position: absolute;
+	left: none;
+}
+.date-position{
+	bottom: 0%;
+	
 }
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
@@ -89,12 +95,16 @@ button a{
 
 @media all and (max-width: 645px) {
 	.slider-logo{width: 40px !important;height: 40px !important;}
+	.caption-logo{bottom: 0% !important;right: 5% !important;}
+	.button-position{left: 5%;}
 }
 
 @media all and (min-width: 646px) {
 	#main{background: url(../img/14.jpg);background-size: cover;}
 	
 	.slider-logo{width: 40px !important;height: 40px !important;}
+	.caption-logo{bottom: 0% !important;left: 5% !important;}
+	.button-position{right: 5%;}
 }
 
 @media all and (max-width: 767px) {
