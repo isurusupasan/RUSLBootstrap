@@ -2,71 +2,70 @@
 *{
 	font-family: 'Poppins', sans-serif;
 }
-.research_site{
-	padding-left:50px;
-	padding-bottom:50px; 
-}
-.research_site_banner{
-	height:80px;
-}
-.research1{
-	padding-right:50px;
-}
-.btn-outline-secondary{
-	style="width:120px; 
-	height:40px; 
-	font-size: 20px; 
-	background:transparent; 
-	margin-top:15px; 
-	font-family:'Yantramanav', sans-serif; 
-	border-color:#cccccc;"
-}
-.btn-outline-secondary:hover{
-	background-color:#b3b3b3;
-	color:white;
-}
-/*research topic row*/
-div.polaroid {/* controlling the box type affect in objects*/
 
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	margin-bottom: 25px;
-	width: 40%;
-	background-color: #F5F5F5;
+#body-prop{
+	background-color: #EBEBEB;
 }
 
-div.polaroidup{/* controlling the about us box colur and size*/
-	box-shadow: none;
-	margin-bottom: 25px;
-	width: inherit;
-	height: 100px;
-	background-color:rgb(245, 245, 245);
-	color: #000;
-}
-.align-right{
-    text-align: right !important;
-}
-.bg-dark-black{/* related to about us text block*/
-	padding: 0px 0px 0px 0px;
-	border-left: rgba(81, 124, 81, 0) 10px solid;
-	border-right: rgba(81, 124, 81, 0) 20px solid;       
+.no-gutters{
+	margin: 0;
+	padding: 0;
 }
 
-.relative {
+.research-head{
+	font-size:40px;
+	font-weight:300;
+}
+
+
+#header{
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+
+}
+
+#main{
 	position: relative;
+	background: none;
+	min-height: 40vh;
+	background-size: none;
+	background-position: center;
+	padding: 20px 20px 20px 0; 
+	
+}
+.row .background{
+	overflow: hidden;
 }
 
-.align-right{
-	text-align: right !important;
+.properties{
+	margin: 20px;
+	
 }
-header {/* header for about us text (incase we may need)*/
-        display: block;
+
+
+/* make resposive*/
+
+@media all and (max-width: 645px) {
+
 }
-.container{
-        padding-right: 15px;
-        scroll-padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
+
+@media all and (min-width: 646px) {
+	#main{background: url(../img/14.jpg);background-size: cover;}
 }
-.research1 img{
-	border-radius:0.25rem;
+
+@media all and (max-width: 767px) {
+	
+}
+
+@media all and (min-width: 768px) {
+	
+}
+
+@media all and (max-width: 991px) {
+
+}
+
+@media all and (min-width: 992px) {
+
 }
