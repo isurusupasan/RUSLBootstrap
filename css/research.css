@@ -2,21 +2,10 @@
 *{
 	font-family: 'Poppins', sans-serif;
 }
-
+/* section settings>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 #body-prop{
 	background-color: #EBEBEB;
 }
-
-.no-gutters{
-	margin: 0;
-	padding: 0;
-}
-
-.research-head{
-	font-size:40px;
-	font-weight:300;
-}
-
 
 #header{
 	position: absolute;
@@ -31,9 +20,26 @@
 	min-height: 40vh;
 	background-size: none;
 	background-position: center;
-	padding: 20px 20px 20px 0; 
+	padding: 20px 0 0 0;
+	border-radius: 25px; 
 	
 }
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+/*card properties ajust>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.no-gutters{
+	margin: 0;
+	padding: 0;
+}
+
+.research-head{
+	font-size:40px;
+	font-weight:300;
+}
+
+
+
 .row .background{
 	overflow: hidden;
 }
@@ -43,15 +49,44 @@
 	
 }
 
+.card-bottom{
+	margin-top: none;
+}
 
-/* make resposive*/
+.caption-logo{
+	bottom: 0% !important;
+	left: 5% !important;
+	position: absolute;
+}
+
+.slider-logo{
+	height: none;
+	width: none;
+	margin: none;
+}
+.button-position{
+	bottom: 10px;
+	right: 5%;
+	position: absolute;
+}
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+/* owl-carosul settings*/
+.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 0 !important;
+}
+
+
+/* make resposive>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 @media all and (max-width: 645px) {
-
+	
 }
 
 @media all and (min-width: 646px) {
 	#main{background: url(../img/14.jpg);background-size: cover;}
+	.card-bottom{margin-top: 80px;}
+	.slider-logo{width: 40px !important;height: 40px !important;}
 }
 
 @media all and (max-width: 767px) {
@@ -69,3 +104,5 @@
 @media all and (min-width: 992px) {
 
 }
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
