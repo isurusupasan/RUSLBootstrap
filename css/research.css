@@ -91,6 +91,10 @@ button a:hover{
     text-overflow: ellipsis;
 }
 
+.text-heding{
+	padding: none;
+}
+
 .muted-text-mobi{/*mobile-content main card text properties ajusting*/
 	padding: none;
 }
@@ -134,6 +138,7 @@ button a:hover{
 	.button-position{left: 5%;}
 	.card-border{border: solid #f1f1f1;}
 	.muted-text-mobi{padding: 0 20px 10px 30px;}
+	.text-heding{padding: 30px 20px 0;}
 }
 
 @media all and (min-width: 646px) {
