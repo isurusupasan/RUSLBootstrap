@@ -81,6 +81,15 @@ button a:hover{
 	border: none;
 }
 
+.text-overflow{/* text overflow hidden*/
+    display: block;
+    display: -webkit-box;
+	text-align: justify;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 
 
 .caption-logo{/* logo position of the card */
