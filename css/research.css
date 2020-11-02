@@ -21,8 +21,10 @@
 	background-size: none;
 	background-position: center;
 	border-radius: 0px;
+}
+
+.down{
 	padding: 20px 0 0 0;
-	
 }
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
@@ -67,6 +69,11 @@ button a{
 }
 button a:hover{
 	color:white;
+}
+
+#main .top-dark{
+	background-color: #00000030;
+	z-index: 10;
 }
 
 
