@@ -91,7 +91,7 @@ button a:hover{
     text-overflow: ellipsis;
 }
 
-.text-heding{
+.text-heding{/*mobile view card title customization*/
 	padding: none;
 }
 
@@ -137,8 +137,8 @@ button a:hover{
 	.caption-logo{bottom: 0% !important;right: 5% !important;}
 	.button-position{left: 5%;}
 	.card-border{border: solid #f1f1f1;}
-	.muted-text-mobi{padding: 0 20px 10px 30px;}
-	.text-heding{padding: 30px 20px 0;}
+	.muted-text-mobi{padding: 10px 20px 10px 30px;}
+	.text-heding{padding: 30px 20px 10px;}
 }
 
 @media all and (min-width: 646px) {
