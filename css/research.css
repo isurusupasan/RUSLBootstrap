@@ -42,7 +42,7 @@
 
 
 
-.row .background{
+.row .background{/* remove background overflow*/
 	overflow: hidden;
 }
 
@@ -71,33 +71,38 @@ button a:hover{
 	color:white;
 }
 
-#main .top-dark{
-	background-color: #00000030;
+#main .top-dark{/* make the owl carosul image dark with a mask and make responsive*/
+	background-color: none;
 	z-index: 10;
+}
+
+.card-border{
+	border-radius: 15px;
+	border: none;
 }
 
 
 
-.caption-logo{
+.caption-logo{/* logo position of the card */
 	bottom: none;
 	left: none;
 	position: absolute;
 	right: none;;
 }
 
-.slider-logo{
+.slider-logo{/* logo size customizing in the cards*/
 	height: none;
 	width: none;
 	margin: none;
 }
-.button-position{
+.button-position{/* button position in the cards and responsive*/
 	bottom: 10px;
 	right: none;
 	position: absolute;
 	left: none;
 }
 .date-position{
-	bottom: 0%;
+	bottom: 0%;	/* date poition in the mobile view*/
 	
 }
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
@@ -114,6 +119,7 @@ button a:hover{
 	.slider-logo{width: 40px !important;height: 40px !important;}
 	.caption-logo{bottom: 0% !important;right: 5% !important;}
 	.button-position{left: 5%;}
+	.card-border{border: solid #f1f1f1;}
 }
 
 @media all and (min-width: 646px) {
@@ -122,6 +128,8 @@ button a:hover{
 	.slider-logo{width: 40px !important;height: 40px !important;}
 	.caption-logo{bottom: 0% !important;left: 5% !important;}
 	.button-position{right: 5%;}
+	#main .top-dark{background-color: #00000030;}
+	
 }
 
 @media all and (max-width: 767px) {
