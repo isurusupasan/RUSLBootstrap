@@ -55,8 +55,8 @@
 	--animate-duration: 2s;
 }
 .card-text .text-muted a{
-	font-size:20px;
-	color:red;
+	font-size:16px;
+	color: #FF7B7B;
 }
 .btn-outline-light{
 	border:1px solid #000;
@@ -92,7 +92,7 @@ button a:hover{
 }
 
 .muted-text-mobi{/*mobile-content main card text properties ajusting*/
-	padding: 20px 20px 20px 30px;
+	padding: none;
 }
 
 
@@ -133,6 +133,7 @@ button a:hover{
 	.caption-logo{bottom: 0% !important;right: 5% !important;}
 	.button-position{left: 5%;}
 	.card-border{border: solid #f1f1f1;}
+	.muted-text-mobi{padding: 0 20px 10px 30px;}
 }
 
 @media all and (min-width: 646px) {
@@ -142,6 +143,7 @@ button a:hover{
 	.caption-logo{bottom: 0% !important;left: 5% !important;}
 	.button-position{right: 5%;}
 	#main .top-dark{background-color: #00000030;}
+	.muted-text-mobi{padding: 20px 20px 20px 30px;}
 	
 }
 
