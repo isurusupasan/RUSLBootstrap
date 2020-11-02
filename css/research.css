@@ -17,14 +17,14 @@
 #main{
 	position: relative;
 	background: none;
-	min-height: 40vh;
+	min-height: none;
 	background-size: none;
 	background-position: center;
 	border-radius: 0px;
 }
 
 .down{
-	padding: 20px 0 0 0;
+	padding: none;
 }
 
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
@@ -136,8 +136,8 @@ button a:hover{
 }
 
 @media all and (min-width: 646px) {
-	#main{background: url(../img/14.jpg);background-size: cover;}
-	
+	#main{background: url(../img/14.jpg);background-size: cover;min-height: 40vh;}
+	.down{padding: 20px 0 0 0;}	
 	.slider-logo{width: 40px !important;height: 40px !important;}
 	.caption-logo{bottom: 0% !important;left: 5% !important;}
 	.button-position{right: 5%;}
