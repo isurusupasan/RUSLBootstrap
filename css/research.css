@@ -91,6 +91,10 @@ button a:hover{
     text-overflow: ellipsis;
 }
 
+.muted-text-mobi{/*mobile-content main card text properties ajusting*/
+	padding: 20px 20px 20px 30px;
+}
+
 
 .caption-logo{/* logo position of the card */
 	bottom: none;
