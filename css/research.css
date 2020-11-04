@@ -114,13 +114,16 @@ button a:hover{
 	margin: none;
 }
 .button-position{/* button position in the cards and responsive*/
-	bottom: 10px;
+	bottom: none;
 	right: none;
 	position: absolute;
 	left: none;
 }
 .date-position{
-	bottom: 0%;	/* date poition in the mobile view*/
+	bottom: none;	/* date poition in the mobile view*/
+	right: none;
+	position: absolute;
+	left: none;
 	
 }
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
@@ -136,11 +139,12 @@ button a:hover{
 @media all and (max-width: 645px) {
 	.slider-logo{width: 40px !important;height: 40px !important;}
 	.caption-logo{bottom: 0% !important;right: 5% !important;}
-	.button-position{left: 5%;}
+	.button-position{left: 30px;bottom: 60px; }
 	.card-border{border: solid #f1f1f1;}
 	.muted-text-mobi{padding: 20px 20px 10px 30px;}
 	.text-heding{padding: 30px 20px 10px;}
 	 button a{color: #31ADFF;font-size: 12px;}
+	.date-position{bottom: 10px;left: 50px;}
 }
 
 @media all and (min-width: 646px) {
@@ -148,7 +152,7 @@ button a:hover{
 	.down{padding: 20px 0 0 0;}	
 	.slider-logo{width: 40px !important;height: 40px !important;}
 	.caption-logo{bottom: 0% !important;left: 5% !important;}
-	.button-position{right: 5%;}
+	.button-position{right: 5%; bottom: 10px;}
 	#main .top-dark{background-color: #00000030;}
 	.muted-text-mobi{padding: 20px 20px 20px 30px;}
 	.btn-outline-light{border:1px solid #000;}
