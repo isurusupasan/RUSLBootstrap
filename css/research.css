@@ -144,7 +144,7 @@ button a:hover{
 	.muted-text-mobi{padding: 20px 20px 10px 30px;}
 	.text-heding{padding: 30px 20px 10px;}
 	 button a{color: #31ADFF;font-size: 12px;}
-	.date-position{bottom: 10px;left: 50px;}
+	.date-position{bottom: 10px;left: 30%;}
 }
 
 @media all and (min-width: 646px) {
