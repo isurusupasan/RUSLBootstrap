@@ -30,7 +30,7 @@
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
 /*card properties ajust>>>>>>>>>>>>>>>>>>>>>>>>>>*/
-.no-gutters{
+.no-gutters{/* remove unnessary margins and paddings*/
 	margin: 0;
 	padding: 0;
 }
@@ -59,13 +59,14 @@
 	color: #FF7B7B;
 }
 .btn-outline-light{
-	border:1px solid #000;
+	border: none;
 }
 .btn-outline-light:hover{
 	background-color:#31ADFF;
 }
 button a{
-	color:#000;
+	color: none;
+	font-size: none;
 }
 button a:hover{
 	color:white;
@@ -104,7 +105,7 @@ button a:hover{
 	bottom: none;
 	left: none;
 	position: absolute;
-	right: none;;
+	right: none;
 }
 
 .slider-logo{/* logo size customizing in the cards*/
@@ -139,6 +140,7 @@ button a:hover{
 	.card-border{border: solid #f1f1f1;}
 	.muted-text-mobi{padding: 20px 20px 10px 30px;}
 	.text-heding{padding: 30px 20px 10px;}
+	 button a{color: #31ADFF;font-size: 12px;}
 }
 
 @media all and (min-width: 646px) {
@@ -149,6 +151,8 @@ button a:hover{
 	.button-position{right: 5%;}
 	#main .top-dark{background-color: #00000030;}
 	.muted-text-mobi{padding: 20px 20px 20px 30px;}
+	.btn-outline-light{border:1px solid #000;}
+	 button a{color:#000;}
 	
 }
 
