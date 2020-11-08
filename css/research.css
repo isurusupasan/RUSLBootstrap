@@ -50,13 +50,27 @@
 	margin: 20px;
 	
 }
-.animate__bounceIn{
-	--animate-delay: 7s;
-	--animate-duration: 2s;
+/*.animate__bounceIn{*/
+.animated {
+  animation-duration: 2.5s;
+  animation-fill-mode: both;
 }
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-15px);}
+  60% {transform: translateY(-10px);}
+}
+
+.bounce {
+  animation-name: bounce;
+}
+
 .card-text .text-muted a{
 	font-size:16px;
-	color: #FF7B7B;
+	color: #FF4D4D;
+}
+.card-text .text-muted a:hover{
+	color: #31ADFF;
 }
 .btn-outline-light{
 	border: none;
@@ -106,6 +120,10 @@ button a:hover{
 	left: none;
 	position: absolute;
 	right: none;
+}
+.caption-logo img{
+	width: 30px !important;
+	height: auto !important;
 }
 
 .slider-logo{/* logo size customizing in the cards*/
