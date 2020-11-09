@@ -96,11 +96,16 @@ button a:hover{
 	border: none;
 }
 
+.card-padding{/*padding of the card body removed*/
+	padding-left: none;
+	padding-right: none;
+}
+
 .text-overflow{/* text overflow hidden*/
     display: block;
     display: -webkit-box;
 	text-align: justify;
-    -webkit-line-clamp: 10;
+    -webkit-line-clamp: 8;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -114,6 +119,9 @@ button a:hover{
 	padding: none;
 }
 
+.card-top{
+	padding-top: 0;
+}
 
 .caption-logo{/* logo position of the card */
 	bottom: none;
@@ -151,6 +159,13 @@ button a:hover{
     margin-top: 0 !important;
 }
 
+.owl-dots .owl-dot button:focus {
+	outline: none;
+}
+.owl-dots .owl-dot.active button {
+	color: #000000;
+}
+
 
 /* make resposive>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
@@ -163,13 +178,9 @@ button a:hover{
 	.text-heding{padding: 30px 20px 10px;}
 	 button a{color: #31ADFF;font-size: 12px;}
 	.date-position{bottom: 10px;left: 31%;}
-	.card-text .text-muted a{
-	font-size:16px;
-	color: #FF4D4D;
-}
-.card-text .text-muted a:hover{
-	color: #31ADFF;
-}
+	.card-text .text-muted a{font-size:16px;color: #FF4D4D;}
+	.card-text .text-muted a:hover{color: #31ADFF;}
+	
 }
 
 @media all and (min-width: 646px) {
@@ -182,13 +193,9 @@ button a:hover{
 	.muted-text-mobi{padding: 20px 20px 20px 30px;}
 	.btn-outline-light{border:1px solid #000;}
 	 button a{color:#000;}
-	 .card-text .text-muted a{
-	font-size:16px;
-	color: #FF4D4D;
-}
-.card-text .text-muted a:hover{
-	color: #31ADFF;
-}
+	.card-text .text-muted a{font-size:16px;color: #FF4D4D;}
+	.card-text .text-muted a:hover{color: #31ADFF;}
+	.card-padding{padding-right: 0;padding-left: 0;}
 	
 }
 
