@@ -111,6 +111,15 @@ button a:hover{
     text-overflow: ellipsis;
 }
 
+.text-overflow-card{/* text overflow hidden*/
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 14;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .text-heding{/*mobile view card title customization*/
 	padding: none;
 }
@@ -119,7 +128,16 @@ button a:hover{
 	padding: none;
 }
 
+.card-bold{
+	font-weight: 400;
+	font-size: 24px;
+}
+
 .card-top{
+	padding-top: 0;
+}
+
+.card-body{
 	padding-top: 0;
 }
 
@@ -193,7 +211,7 @@ button a:hover{
 	.muted-text-mobi{padding: 20px 20px 20px 30px;}
 	.btn-outline-light{border:1px solid #000;}
 	 button a{color:#000;}
-	.card-text .text-muted a{font-size:16px;color: #FF4D4D;}
+	.card-text .text-muted a{font-size:19px;color: #FF4D4D;font-weight: 200;}
 	.card-text .text-muted a:hover{color: #31ADFF;}
 	.card-padding{padding-right: 0;padding-left: 0;}
 	
