@@ -140,7 +140,7 @@ hr{
 @media all and (min-width: 621px) {
     .deskContent {display:block;}
 	.phoneContent {display:none;}
-	.slider-logo{height: 80px;width: 80px;margin: 10px;}
+	.slider-logo{height: auto;width: 80px;margin: 10px;}
 	.spacer{padding: 50px 0px;}
 	.middle{top: 60%;}
 	.card-body1{padding-top: 150px;}
@@ -152,7 +152,7 @@ hr{
 @media all and (max-width: 620px) {
     .deskContent {display:none;}
 	.phoneContent {display:block;}
-	.slider-logo{height: 30px;width: 30px;margin: 5px;}
+	.slider-logo{height: auto;width: 30px;margin: 5px;}
 	.spacer{padding: 20px 0px;}
 	.card{border: none;}
 	.middle{top: 50%;}
