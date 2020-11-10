@@ -111,7 +111,7 @@ button a:hover{
     text-overflow: ellipsis;
 }
 
-.text-overflow-card{/* text overflow hidden*/
+.text-overflow-card{/* text overflow hidden In owl carousel body*/
     display: block;
     display: -webkit-box;
     -webkit-line-clamp: 14;
@@ -187,17 +187,31 @@ button a:hover{
 
 /* make resposive>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
-@media all and (max-width: 645px) {
-	.slider-logo{width: 40px !important;height: 40px !important;}
+@media all and (max-width:620px){
+	.text-overflow-card{-webkit-line-clamp: 4;}
 	.caption-logo{bottom: 0% !important;right: 5% !important;}
 	.button-position{left: 30px;bottom: 60px; }
+	.date-position{bottom: 10px;left: 31%;}
+	.slider-logo{width: 40px !important;height: 40px !important;}
 	.card-border{border: solid #f1f1f1;}
 	.muted-text-mobi{padding: 20px 20px 10px 30px;}
 	.text-heding{padding: 30px 20px 10px;}
 	 button a{color: #31ADFF;font-size: 12px;}
-	.date-position{bottom: 10px;left: 31%;}
 	.card-text .text-muted a{font-size:16px;color: #FF4D4D;}
 	.card-text .text-muted a:hover{color: #31ADFF;}
+}
+
+@media all and (min-width: 621px) {
+	.slider-logo{width: 40px !important;height: 40px !important;}
+	.caption-logo{bottom: 0% !important;left: 5% !important;}
+	.button-position{right: 5%; bottom: 10px;}
+	.card-border{border: solid #f1f1f1;}
+	.muted-text-mobi{padding: 20px 20px 10px 30px;}
+	.text-heding{padding: 30px 20px 10px;}
+	 button a{color: #31ADFF;font-size: 12px;}
+	.card-text .text-muted a{font-size:16px;color: #FF4D4D;}
+	.card-text .text-muted a:hover{color: #31ADFF;}
+	
 	
 }
 
@@ -214,6 +228,7 @@ button a:hover{
 	.card-text .text-muted a{font-size:19px;color: #FF4D4D;font-weight: 200;}
 	.card-text .text-muted a:hover{color: #31ADFF;}
 	.card-padding{padding-right: 0;padding-left: 0;}
+	.text-overflow-card{-webkit-line-clamp: 14;}
 	
 }
 
