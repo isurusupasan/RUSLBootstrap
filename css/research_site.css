@@ -1,0 +1,24 @@
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.research-head{
+	font-size:50px;
+	font-weight:300;
+	margin-top:20px;
+	margin-bottom:50px;
+}
+.site-links{
+	border-left:1px solid #707070;
+}
+.research-topic{
+	font-size:26px;
+}
+.author{
+	font-size:13px;
+}
+.site-info{
+	margin-left:50px;
+}
+.date{
+	font-size:10px;
+}
