@@ -1,84 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <title>Multidisciplinary Research and Development Centre</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@300;400;900&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/research_all.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
-    
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	  <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@300;400;900&display=swap" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap" rel="stylesheet">
+	  <link rel="stylesheet" href="css/style.css">
+	  
+	  <link rel="stylesheet" href="css/research_all.css">
+	  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
+	  <link rel="stylesheet" href="OwlCarousel/assets/owlcarousel/assets/owl.carousel.min.css">
+	  <link rel="stylesheet" href="OwlCarousel/assets/owlcarousel/assets/owl.theme.default.min.css">
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	  
+
 </head>
+
+
 <body id="body-prop">
+	<!--start navigation bar-->
+	<section id="header-nav">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand deskContent" href="#"><b>Data Science Research Centre</b></a>
+			<a class="navbar-brand phoneContent" href="#"><b style="font-size: 36px;">DSRC</b></a>
 
-       
-    <!--start navigation bar-->
-    <section id="header-nav">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand deskContent" href="#"><b>Data Science Research Centre</b></a>
-            <a class="navbar-brand phoneContent" href="#"><b style="font-size: 36px;">DSRC</b></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item" style="margin-right:25px;">
-                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown active">
-                        <a class="nav-link dropdown-toggle" href="#research-row" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Research
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="research.html#climate_change">Climatic Changes</a>
-                        <a class="dropdown-item" href="research.html#food_security">Food security and modern farming</a>
-                        <a class="dropdown-item" href="research.html#pharmaceuticals">Pharmaceuticals</a>
-                        <a class="dropdown-item" href="research.html#health">Health related predictive analysis</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            About Us
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="about_us.html">Research Unit</a>
-                            <a class="dropdown-item" href="members.html">Members</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </section>
-    <!--end navigation bar-->
-
-    <section id="heading">
-        <!--Research field topic section-->
-		<section id="research-head">
-			<div class="row">
-				<div class="col-md-12 research-head">
-					<center>Climate Change</center>
-				</div>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item" style="margin-right:25px;">
+						<a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item dropdown active">
+						<a class="nav-link dropdown-toggle" href="#research-row" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Research
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="research.html#climate_change">Climatic Changes</a>
+						<a class="dropdown-item" href="research.html#food_security">Food security and modern farming</a>
+						<a class="dropdown-item" href="research.html#pharmaceuticals">Pharmaceuticals</a>
+						<a class="dropdown-item" href="research.html#health">Health related predictive analysis</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							About Us
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="about_us.html">Research Unit</a>
+							<a class="dropdown-item" href="members.html">Members</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
+					</li>
+				</ul>
 			</div>
-		</section>
-		<!--end of the research field topic section-->
-    </section>
+		</nav>
+	</section>
+	<!--end navigation bar-->
 
-    <section id="main">
+	<section id="Card">
+      <main>
+        <div class="margin-main">
+          <div class="container-fluid py-5 bg-faded">
+    		<div class="card-columns">
+				
+				<div class="card card-properties">
+					<div class="card-body">
+						<div>
+							<h5 class="card-title">Grassland Carbon Management</h5>
+							<p class="card-text"><small class="text-muted">11/11/2020</small></p>
+							<p class="card-text">Grasslands cover approximately 25% of the Earth’s land surface (approximately 3.4 billion ha) and contain roughly 12% of the terrestrial carbon stocks (1,2). Grasslands are dominated by herbaceous (nonwoody) vegetation and so—unlike forests—carbon within living aboveground vegetation is a small proportion of the total ecosystem carbon pool.</p>
+						</div>
+						<br>
+						<div>
+							<div class="card-bottom">
+								<div class="caption-logo">
+									<div class="">
+										<img src="img/logo.png" class="slider-logo">
+									</div>
+								</div>
+								<div class="button-position">
+									<div>
+										<button type="button" class="btn btn-outline-light"><a href="research_site.html">Read More...</a></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-    </section>
+				<div class="card">
+					<img class="card-img-top img-fluid" src="//placehold.it/800x600" alt="Card image cap">
+				</div>
+				<div class="card">
+					<img class="card-img-top img-fluid" src="//placehold.it/800x600/eee" alt="Card image cap">
+				</div>
+				<div class="card">
+					<img class="card-img-top img-fluid" src="//placehold.it/800x600/111/fff" alt="Card image cap">
+				</div>
+				<div class="card">
+					<img class="card-img-top img-fluid" src="//placehold.it/800x600" alt="Card image cap">
+				</div>
+				<div class="card">
+					<img class="card-img img-fluid" src="//placehold.it/800x1230/222" alt="Card image">
+				</div>
+				<div class="card">
+					<img class="card-img-top img-fluid" src="//placehold.it/800x600/888/000" alt="Card image cap">
+				</div>
+				<div class="card">
+					<img class="card-img-top img-fluid" src="//placehold.it/800x600" alt="Card image cap">
+				</div>
+				<div class="card">
+					<img class="card-img-top img-fluid" src="//placehold.it/800x600" alt="Card image cap">
+				</div>
+				<div class="card">
+					<img class="card-img-top img-fluid" src="//placehold.it/800x600/220022" alt="Card image cap">
+				</div>
+				<div class="card">
+					<img class="card-img-top img-fluid" src="//placehold.it/800x600" alt="Card image cap">
+				</div>
+				<div class="card">
+					<img class="card-img img-fluid" src="//placehold.it/800x1230/000/fff" alt="Card image">
+				</div>
+				<div class="card">
+					<img class="card-img-top img-fluid" src="//placehold.it/800x600/55ff66/000" alt="Card image cap">
+				</div>
+				<div class="card">
+					<img class="card-img-top img-fluid" src="//placehold.it/800x600" alt="Card image cap">
+				</div>
+				<div class="card">
+					<img class="card-img img-fluid" src="//placehold.it/800x1230/cc4444/FFF" alt="Card image">
+				</div>
+				<div class="card">
+					<img class="card-img-top img-fluid" src="//placehold.it/800x600" alt="Card image cap">
+				</div>
+				<div class="card">
+					<img class="card-img-top img-fluid" src="//placehold.it/800x600" alt="Card image cap">
+				</div>
+				<div class="card">
+					<img class="card-img-top img-fluid" src="//placehold.it/800x600/eee/000" alt="Card image cap">
+				</div>
+				<div class="card">
+					<img class="card-img-top img-fluid" src="//placehold.it/800x600" alt="Card image cap">
+				</div>
+				<div class="card">
+					<img class="card-img-top img-fluid" src="//placehold.it/800x600" alt="Card image cap">
+				</div>
+				<div class="card">
+					<img class="card-img img-fluid" src="//placehold.it/800x1230/111/FFF" alt="Card image">
+				</div>
+				<div class="card">
+					<img class="card-img-top img-fluid" src="//placehold.it/800x600" alt="Card image cap">
+				</div>
+				<div class="card">
+					<img class="card-img-top img-fluid" src="//placehold.it/800x600/333" alt="Card image cap">
+				</div>
+				<div class="card">
+					<img class="card-img-top img-fluid" src="//placehold.it/800x600" alt="Card image cap">
+				</div>
+				<div class="card">
+					<img class="card-img-top img-fluid" src="//placehold.it/800x600/cc44cc/000" alt="Card image cap">
+				</div>
+				<div class="card">
+					<img class="card-img-top img-fluid" src="//placehold.it/800x600" alt="Card image cap">
+				</div>
+   			 </div>
+			</div>
+          
+        </div>
+      </main>
+	</section>
+	
+	
 
+	
+	
 
-    <footer>
+	
+
+<footer>
 		
 		<div class="row">
 			
@@ -166,8 +273,64 @@
 
 	</div>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
-</body>
+	<script src="OwlCarousel/assets/vendors/jquery.min.js"></script>
+	<script src="OwlCarousel/assets/owlcarousel/owl.carousel.js"></script>
+
+	<script>
+		$(document).ready(function() {
+		  $('.owl-carousel').owlCarousel({
+			
+			margin: 10,
+			stagePadding:0,
+			center:false,
+			responsiveClass: true,
+			responsive: {
+			  0: {
+				items: 1,
+				nav: false,
+				dots:false,
+			  },
+			  600: {
+				items: 2,
+				nav: false,
+			  },
+			  768: {
+				items: 3,
+				nav: false,
+			  },
+			  1000: {
+				items: 3,
+				nav: false,
+				margin: 20,
+			  },
+			  1256: {
+				items: 4,
+				nav: false,
+				margin: 20,
+			  },
+			  1400: {
+				items: 4,
+				nav: false,
+				
+				margin: 20,
+			  },
+			  1800: {
+				items: 4,
+				nav: false,
+				margin: 20,
+			  },
+			  3000: {
+				items: 6,
+				nav: false,
+				margin: 20,
+			  }
+			}
+		  })
+		})
+	</script>
+	
+</body>	
 </html>

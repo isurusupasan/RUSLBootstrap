@@ -4,15 +4,97 @@
 }
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap);
 
+
+
 /* main sections ids*/
 #body-prop{
 	background-color: #EBEBEB;
 }
 
-/* customization header area*>>>>>>>>>>>>>>>>>>>>>>>>>>.*/
+/* customization of one card*>>>>>>>>>>>>>>>>>>>>>>>>>>.*/
+.card-properties{
+	width: none;
+	height: none;
+}
+
+.card-text{			/* card text customization*/
+	text-align: justify;
+	font-size: 13px;
+	font-weight: 200;
+}
+
+.cart-title{		/*card title customization*/
+	font-weight: 400;
+	font-size: 26px;
+	text-align: left;
+}
+
+.margin-main{/* card area main section customization*/
+	margin: none;
+}
+
+.caption-logo{/* logo position of the card */
+	bottom: none;
+	left: none;
+	position: absolute;
+	right: none;
+}
+.caption-logo img{
+	width: 30px !important;
+	height: auto !important;
+}
+
+.slider-logo{/* logo size customizing in the cards*/
+	height: none;
+	width: none;
+	margin: none;
+}
+
+.button-position{/* button position in the cards and responsive*/
+	bottom: none;
+	right: none;
+	position: absolute;
+	left: none;
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
 
-.research-head{
-	font-size:50px;
-	font-weight:300;
+
+
+/* responsive the #of cards in a row*/
+@media (min-width: 576px) {
+	.card-columns {column-count: 2;}
+	.margin-main{margin: none;}
+	.slider-logo{width: 40px !important;height: 40px !important;}
+	.caption-logo{bottom: 0% !important;left: 5% !important;}
+	.button-position{right: 5%; bottom: 10px;}
+	.card-properties{width: 18rem;height: auto;}
+}
+
+@media (min-width: 768px) {
+	.card-columns {column-count: 2;}
+	.margin-main{margin: 40px;}
+	.slider-logo{width: 40px !important;height: 40px !important;}
+	.caption-logo{bottom: 0% !important;left: 5% !important;}
+	.button-position{right: 5%; bottom: 10px;}
+	.card-properties{width: 18rem;height: auto;}
+}
+
+@media (min-width: 992px) {
+	.card-columns {column-count: 4;}
+	.margin-main{margin: 100px;}
+	.slider-logo{width: 40px !important;height: 40px !important;}
+	.caption-logo{bottom: 0% !important;left: 5% !important;}
+	.button-position{right: 5%; bottom: 10px;}
+	.card-properties{width: 18rem;height: 420px;}
+}
+
+@media (min-width: 1200px) {
+	.card-columns {column-count: 4;}
+	.margin-main{margin: 100px;}
+	.slider-logo{width: 40px !important;height: 40px !important;}
+	.caption-logo{bottom: 0% !important;left: 5% !important;}
+	.button-position{right: 5%; bottom: 10px;}
+	.card-properties{width: 18rem;height: 420px;}
 }
