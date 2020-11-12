@@ -97,7 +97,7 @@ button a:hover{/* card text hover*/
 .text-overflow-card{/* text overflow hidden*/
     display: block;
     display: -webkit-box;
-    -webkit-line-clamp: 12;
+    -webkit-line-clamp: 13;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
