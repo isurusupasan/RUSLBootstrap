@@ -109,8 +109,8 @@ button a:hover{/* card text hover*/
 	padding-bottom: none;
 }
 
-#card_head {margin-right:10%;}
-#card_date {display: block; position:absolute; top:30%; right:14px; height:auto; width:auto;}
+#card_head {margin-right:40px;}
+#card_date {display: block; position:absolute; top:50%; right:14px; height:auto; width:auto;}
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
 
