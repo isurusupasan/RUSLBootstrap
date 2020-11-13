@@ -18,13 +18,13 @@
 
 }
 
-.research-head{
+.research-head{/* main title of the research head id*/
 	font-size:30px;
 	font-weight:none;
 	margin-top: 20px;
 }
 
-.year{
+.year{/* text just below the main title customization*/
 	font-size: 34px;
 	font-weight: 300;
 }
@@ -99,7 +99,16 @@ button a:hover{/* card text hover*/
 .text-overflow-card{/* text overflow hidden*/
     display: block;
     display: -webkit-box;
-    -webkit-line-clamp: 13;
+    -webkit-line-clamp: none;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text-overflow-sp{/* text overflow hidden special cases*/
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: none;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -118,8 +127,14 @@ button a:hover{/* card text hover*/
 
 /* responsive the #of cards in a row*/
 @media all and (max-width: 575px) {
-    .deskConten {display:none;}
-	.phoneConten {display:block;}
+    .deskConten{display:none;}
+	.phoneConten{display:block;}
+	.card-body{padding-bottom: 0;}
+}
+
+@media all and (min-width: 576px) {
+    .deskConten{display: block flex;}
+	.phoneConten{display:none;}
 	.card-body{padding-bottom: 0;}
 }
 
@@ -145,8 +160,6 @@ button a:hover{/* card text hover*/
 	 button a{color:#000;}
 	.card-logo{width: 40px !important;height: auto !important;}
 	.caption-logo{bottom: 5px !important;left: 5% !important;}
-	.deskConten {display:block;}
-	.phoneConten {display:none;}
 	.card-title{font-size: 20px;}
 }
 
@@ -171,7 +184,8 @@ button a:hover{/* card text hover*/
 	.btn-outline-light{border:1px solid #000;}
 	 button a{color:#000;}
 	.research-head{font-size:50px;font-weight:300;}
-	.text-overflow-card{-webkit-line-clamp: 9;}
+	.text-overflow-card{-webkit-line-clamp: 12;}
+	.text-overflow-sp{-webkit-line-clamp: 9;}
 }
 
 @media (min-width: 1200px) {
@@ -184,6 +198,12 @@ button a:hover{/* card text hover*/
 	.btn-outline-light{border:1px solid #000;}
 	 button a{color:#000;}
 	.research-head{font-size:50px;font-weight:300;}
-	.text-overflow-card{-webkit-line-clamp: 10;}
-	
+	.text-overflow-card{-webkit-line-clamp: 12;}
+	.text-overflow-sp{-webkit-line-clamp: 8;}
+}
+
+@media (min-width: 1450px) {
+	.text-overflow-sp{-webkit-line-clamp: 10;}
+	.text-overflow-card{-webkit-line-clamp: 16;}
+
 }
