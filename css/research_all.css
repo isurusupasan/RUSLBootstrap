@@ -49,7 +49,7 @@
 
 .cart-title{		/*card title customization*/
 	font-weight: 400;
-	font-size: 26px;
+	font-size: none;
 	text-align: left;
 }
 
@@ -104,6 +104,13 @@ button a:hover{/* card text hover*/
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+.card-body{
+	padding-bottom: none;
+}
+
+#card_head {margin-right:10%;}
+#card_date {display: block; position:absolute; top:30%; right:14px; height:auto; width:auto;}
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
 
@@ -113,6 +120,7 @@ button a:hover{/* card text hover*/
 @media all and (max-width: 575px) {
     .deskConten {display:none;}
 	.phoneConten {display:block;}
+	.card-body{padding-bottom: 0;}
 }
 
 
@@ -125,6 +133,7 @@ button a:hover{/* card text hover*/
 	 button a{color:#000;}
 	.card-logo{width: 40px !important;height: auto !important;}
 	.caption-logo{bottom: 5px !important;left: 5% !important;}
+	.card-title{font-size: 16px;}
 }
 
 @media (min-width: 576px) {
@@ -138,6 +147,7 @@ button a:hover{/* card text hover*/
 	.caption-logo{bottom: 5px !important;left: 5% !important;}
 	.deskConten {display:block;}
 	.phoneConten {display:none;}
+	.card-title{font-size: 20px;}
 }
 
 @media (min-width: 768px) {
@@ -175,4 +185,5 @@ button a:hover{/* card text hover*/
 	 button a{color:#000;}
 	.research-head{font-size:50px;font-weight:300;}
 	.text-overflow-card{-webkit-line-clamp: 10;}
+	
 }
