@@ -160,7 +160,8 @@ button a:hover{/* card text hover*/
 	.caption-logo{bottom: 5px !important;left: 5% !important;}
 	.btn-outline-light{border:1px solid #000;}
 	 button a{color:#000;}
-	 .research-head{font-size:50px;font-weight:300;}
+	.research-head{font-size:50px;font-weight:300;}
+	.text-overflow-card{-webkit-line-clamp: 9;}
 }
 
 @media (min-width: 1200px) {
@@ -173,4 +174,5 @@ button a:hover{/* card text hover*/
 	.btn-outline-light{border:1px solid #000;}
 	 button a{color:#000;}
 	.research-head{font-size:50px;font-weight:300;}
+	.text-overflow-card{-webkit-line-clamp: 10;}
 }
