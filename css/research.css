@@ -48,7 +48,7 @@
 
 .properties{
 	margin: 20px;
-	margin-right:0px;
+	margin-right:none;
 	
 }
 /*.animate__bounceIn{*/
@@ -212,6 +212,7 @@ button a:hover{
 	 button a{color: #31ADFF;font-size: 12px;}
 	.card-text .text-muted a{font-size:16px;color: #FF4D4D;}
 	.card-text .text-muted a:hover{color: #31ADFF;}
+	.properties{margin-right: 0px;}
 	
 	
 }
