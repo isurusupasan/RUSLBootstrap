@@ -17,8 +17,19 @@ body{
 	font-size:13px;
 }
 .site-info{
-	margin-left:50px;
+	padding-left:50px;
 }
 .date{
 	font-size:10px;
+}
+.research-info{
+	font-size:14px;
+	padding-right:30px;
+}
+.other-links button{
+	font-size:14px;
+	text-align:left;
+}
+.btn-light{
+	padding-right:50px;
 }
