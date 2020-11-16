@@ -23,7 +23,6 @@ div.polaroidup{/* controlling the about us box colur and size*/
     text-align: right !important;
 }
 .bg-dark-black{/* related to about us text block*/
-	padding: 0px 0px 0px 0px;
 	border-left: rgba(81, 124, 81, 0) 10px solid;
 	border-right: rgba(81, 124, 81, 0) 20px solid;       
 }
