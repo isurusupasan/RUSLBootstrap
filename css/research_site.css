@@ -1,5 +1,6 @@
 body{
 	font-family: 'Poppins', sans-serif;
+	background-color:#EBEBEB;
 }
 .research-head{
 	font-size:50px;
@@ -24,9 +25,60 @@ body{
 }
 .research-info{
 	font-size:14px;
-	padding-right:30px;
+	padding-right:60px;
+	margin-left:20px;
 }
-.other-links button{
+.link1{
+	background-color:#fff;
+	border-radius:0.5rem;
+	margin:auto;
+	padding:10px;
 	font-size:15px;
-	text-align:left;
+	color:#000;
 }
+.date{
+	font-size:10px;
+	margin:auto;
+}
+.other-links{
+	margin-right:10px;
+}
+.fa-file-pdf-o{
+	color:#707070;
+}
+.btn-light{
+	font-size:15spx;
+	box-shadow: 5px 5px 10px #D0D0D0;
+	border-radius:10px;
+}
+.fa{
+	font-size:15px;
+}
+/* responsive mobile view >>>>>>>>>*/
+@media all and (min-width: 621px) {
+    .deskContent {display:block;}
+	.phoneContent {display:none;}
+	.slider-logo{height: auto;width: 80px;margin: 10px;}
+	.spacer{padding: 50px 0px;}
+	.middle{top: 60%;}
+	.card-body1{padding-top: 150px;}
+	.card-prop{width: 18rem;height: 420px;}
+	.card-hight{height: 250px;}
+}
+
+
+@media all and (max-width: 620px) {
+    .deskContent {display:none;}
+	.phoneContent {display:block;}
+	.slider-logo{height: auto;width: 30px;margin: 5px;}
+	.spacer{padding: 20px 0px;}
+	.card{border: none;}
+	.middle{top: 50%;}
+	.card-body1{padding-top: 10px;}
+	.card-prop{width: 100%;height: 220px;padding-right: 5%;padding-left: 5%;}
+	.card-prop-def{width: 100%;height: 220px;}
+	.card-hight{height: 100px;}
+	.card-bold{font-weight: bold;}
+}
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
