@@ -54,6 +54,10 @@ body{
 .fa{
 	font-size:15px;
 }
+
+.br-rad{/* card border radius control*/
+	border-radius: 15px;
+}
 /* responsive mobile view >>>>>>>>>*/
 @media all and (min-width: 621px) {
     .deskContent {display:block;}
