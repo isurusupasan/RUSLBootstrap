@@ -84,7 +84,8 @@ body{
 #author {display: block; position:absolute; top: 30%; left: 15px; height:auto; width:auto;}
 #date {display: block; position:absolute; top: 30%; left: 160px; height:auto; width:auto;}
 #link {display: block; position:absolute; top: 30%; left: 250px; height:auto; width:auto;}
-
+#author-mob {display: block; position:absolute; left: 15px; height:auto; width:auto;}
+#date-mob {display: block; position:absolute; left: 160px; height:auto; width:auto;}
 
 /* responsive mobile view >>>>>>>>>*/
 @media all and (min-width: 621px) {
