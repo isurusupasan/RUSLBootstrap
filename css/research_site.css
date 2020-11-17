@@ -58,6 +58,17 @@ body{
 .br-rad{/* card border radius control*/
 	border-radius: 15px;
 }
+
+.card-properties{/* card hight and width control*/
+	width: none;
+	height: none;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 15px;
+}
+
+#card_head {margin-right:60px; text-align: left; width: 75%;}
+#card_date {display: block; position:absolute; top: 30%; right:14px; height:auto; width:auto;}
+
 /* responsive mobile view >>>>>>>>>*/
 @media all and (min-width: 621px) {
     .deskContent {display:block;}
