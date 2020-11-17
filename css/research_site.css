@@ -81,6 +81,10 @@ body{
 
 #card_head {margin-right:60px; text-align: left; width: 75%;}
 #card_date {display: block; position:absolute; top: 30%; right:14px; height:auto; width:auto;}
+#author {display: block; position:absolute; top: 30%; left: 15px; height:auto; width:auto;}
+#date {display: block; position:absolute; top: 30%; left: 160px; height:auto; width:auto;}
+#link {display: block; position:absolute; top: 30%; left: 250px; height:auto; width:auto;}
+
 
 /* responsive mobile view >>>>>>>>>*/
 @media all and (min-width: 621px) {
