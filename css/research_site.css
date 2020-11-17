@@ -55,10 +55,6 @@ body{
 	font-size:15px;
 }
 
-.br-rad{/* card border radius control*/
-	border-radius: 15px;
-}
-
 .card-properties{/* card hight and width control*/
 	width: none;
 	height: none;
