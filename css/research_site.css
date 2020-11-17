@@ -54,7 +54,23 @@ body{
 .fa{
 	font-size:15px;
 }
+.br-rad{/* card border radius control*/
+	border-radius: 15px;
+}
 
+.card-title{
+	font-size: 15px;
+	font-weight: 200;
+	color: #212529;
+}
+
+.card-body{
+	padding-bottom: 0;
+}
+
+.small, small{
+	font-weight: 200;
+}
 .card-properties{/* card hight and width control*/
 	width: none;
 	height: none;
