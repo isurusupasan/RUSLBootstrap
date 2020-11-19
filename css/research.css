@@ -53,17 +53,16 @@
 }
 /*.animate__bounceIn{*/
 .animated {
-  animation-duration: 3s;
-  animation-fill-mode: both;
+	animation-duration: 3s;
+	animation-fill-mode: both;
 }
-@keyframes bounce {
-  0%, 50%, 100% {transform: translateY(0);}
-  25% {transform: translateY(-10px);}
-  75% {transform: translateY(-10px);}
+@keyframes bounce2 {
+	0%, 50%, 100% {transform: translateY(0);}
+	25% {transform: translateY(-10px);}
+	75% {transform: translateY(-10px);}
 }
-
 .bounce {
-  animation-name: bounce2;
+	animation-name: bounce2;
 }
 
 .card-text .text-muted a{
