@@ -149,7 +149,7 @@ button a:hover{/* card text hover*/
 	.btn-outline-light{border:1px solid #000;}
 	 button a{color:#000;}
 	.card-logo{width: 40px !important;height: auto !important;}
-	.caption-logo{bottom: 10px !important;left: 5% !important;}
+	.caption-logo{bottom: 10px !important;left: 20px !important;}
 	.card-title{font-size: 15px;}
 }
 
@@ -161,7 +161,7 @@ button a:hover{/* card text hover*/
 	.btn-outline-light{border:1px solid #000;}
 	 button a{color:#000;}
 	.card-logo{width: 40px !important;height: auto !important;}
-	.caption-logo{bottom: 10px !important;left: 5% !important;}
+	.caption-logo{bottom: 10px !important;left: 20px !important;}
 	.card-title{font-size: 20px;}
 }
 
@@ -173,7 +173,7 @@ button a:hover{/* card text hover*/
 	.btn-outline-light{border:1px solid #000;}
 	 button a{color:#000;}
 	.card-logo{width: 40px !important;height: auto !important;}
-	.caption-logo{bottom: 10px !important;left: 5% !important;}
+	.caption-logo{bottom: 10px !important;left: 20px !important;}
 }
 
 @media (min-width: 992px) {
@@ -182,7 +182,7 @@ button a:hover{/* card text hover*/
 	.button-position{right: 5%; bottom: 10px;}
 	.card-properties{width: auto;height: 420px;}
 	.card-logo{width: 40px !important;height: auto !important;}
-	.caption-logo{bottom: 10px !important;left: 5% !important;}
+	.caption-logo{bottom: 10px !important;left: 20px !important;}
 	.btn-outline-light{border:1px solid #000;}
 	 button a{color:#000;}
 	.research-head{font-size:50px;font-weight:300;}
@@ -194,7 +194,7 @@ button a:hover{/* card text hover*/
 	.card-columns {column-count: 4;}
 	.margin-main{margin: 0px 100px 0px 100px;}
 	.card-logo{width: 40px !important;height: auto !important;}
-	.caption-logo{bottom: 10px !important;left: 5% !important;}
+	.caption-logo{bottom: 10px !important;left: 20px !important;}
 	.button-position{right: 5%; bottom: 10px;}
 	.card-properties{width: auto;height: 420px;}
 	.btn-outline-light{border:1px solid #000;}
