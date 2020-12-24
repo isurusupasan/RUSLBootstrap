@@ -3,6 +3,8 @@
 	font-family: 'Poppins', sans-serif;
 }
 
+@import url(//db.onlinewebfonts.com/c/003b8fca3be038297ff971a4f5b9195b?family=Segoe+UI+Semilight);
+
 /* section id customiz>>>>>>>>>>>>>>>>>>>>>*/
 
 #body-prop{
@@ -32,6 +34,11 @@
 	border-radius: 15px;
 }
 
+.side{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 .card-properties{/* card hight and width control*/
 	width: none;
 	height: none;
@@ -42,5 +49,11 @@
 .card-title{
   font-size: 50px;
   font-weight: 300;
+}
+
+.card-text{
+  font-weight: 200;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
