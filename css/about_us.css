@@ -38,4 +38,9 @@
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	border-radius: 15px;
 }
+
+.card-title{
+  font-size: 50px;
+  font-weight: 300;
+}
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
