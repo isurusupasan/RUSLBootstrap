@@ -1,4 +1,4 @@
-var player = videojs('my-video',{
+var player = videojs('my-video_play',{
     autoplay: 'muted',
     controls: true,
     poster: '../img/10.jpg',
