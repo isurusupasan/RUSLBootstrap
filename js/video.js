@@ -1,5 +1,7 @@
-var player = videojs('video_play',{
+var player = videojs('my-video',{
     autoplay: 'muted',
     controls: true,
-    poster: '../img/10.jpg'
+    poster: '../img/10.jpg',
+    fluid: true,
+    loop: true,
 });
