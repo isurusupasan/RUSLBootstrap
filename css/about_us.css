@@ -3,18 +3,23 @@
 	font-family: 'Poppins', sans-serif;
 }
 
+/* section id customiz>>>>>>>>>>>>>>>>>>>>>*/
+
 #body-prop{
-	background-color: #EBEBEB;
+	background-color: #EBEBEB; /* adding backgrond colour*/
 }
 
 
 
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
-
-
-
+/*customize properties>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
 
 .research-head{
 	font-size:50px;
 	font-weight:300;
 }
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
