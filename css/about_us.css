@@ -109,7 +109,7 @@
 }
 
 @media (min-width: 768px) {
-  .side{margin-left: 10px;margin-right: 10px;}
+  .side{margin-left: 5%;margin-right: 10px;}
 }
 
 @media (min-width: 992px) {
