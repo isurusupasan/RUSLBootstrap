@@ -35,8 +35,8 @@
 }
 
 .side{
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: none;
+  margin-right: none;
   margin-top: 50px;
 }
 
@@ -121,7 +121,7 @@
 }
 
 @media (min-width: 1450px) {
-
+  .side{margin-left: 50px;margin-right: 50px;}
 }
 
 
