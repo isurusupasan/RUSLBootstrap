@@ -68,7 +68,10 @@
 }
 
 .para-mar{
-  margin-bottom: 20px;
+  margin-bottom: 20px; 
+}
+
+.para-align{
   text-align: justify;
 }
 
