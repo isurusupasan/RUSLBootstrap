@@ -87,3 +87,45 @@
   font-weight: 300;
 }
 /*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+/*make responive*>>>>>>>>>>>>>>>>>>>>>>*/
+
+@media all and (max-width: 575px) {
+ 
+}
+
+@media all and (min-width: 576px) {
+  
+}
+
+
+@media (min-width: 360px) {
+
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1450px) {
+
+}
+
+
+
+
+
+/*<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
