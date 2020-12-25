@@ -5,4 +5,5 @@ var player = videojs('my-video_play',{
     fluid: true,
     loop: true,
     playbackRates: [0.75, 1.0, 1.25, 1.5],
+    
 });
