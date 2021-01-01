@@ -23,6 +23,15 @@
 	border-radius: 0px;
 }
 
+#main{
+	position: relative;
+	background: none;
+	min-height: none;
+	background-size: none;
+	background-position: center;
+	border-radius: 0px;
+}
+
 .down{
 	padding: none;
 }
