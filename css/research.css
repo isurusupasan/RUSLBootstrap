@@ -32,6 +32,15 @@
 	border-radius: 0px;
 }
 
+#food{
+	position: relative;
+	background: none;
+	min-height: none;
+	background-size: none;
+	background-position: center;
+	border-radius: 0px;
+}
+
 .down{
 	padding: none;
 }
@@ -101,6 +110,11 @@ button a:hover{
 }
 
 #parma .top-dark{/* make the owl carosul image dark with a mask and make responsive*/
+	background-color: none;
+	z-index: 10;
+}
+
+#food .top-dark{/* make the owl carosul image dark with a mask and make responsive*/
 	background-color: none;
 	z-index: 10;
 }
@@ -236,7 +250,8 @@ button a:hover{
 
 @media all and (min-width: 646px) {
 	#main{background: url(../img/14.jpg);background-size: cover;min-height: 40vh;}
-	#parma{background: url(../img/farming.jpg);background-size: cover;min-height: 40vh;}
+	#food{background: url(../img/farming.jpg);background-size: cover;min-height: 40vh;}
+	#parma{background: url(../img/pharma.jpg);background-size: cover;min-height: 40vh;}
 	.down{padding: 20px 0 0 0;}	
 	.slider-logo{width: 40px !important;height: 40px !important;}
 	.caption-logo{bottom: 0% !important;left: 5% !important;}
