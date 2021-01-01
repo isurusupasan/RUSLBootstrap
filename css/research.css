@@ -41,6 +41,15 @@
 	border-radius: 0px;
 }
 
+#food{
+	position: relative;
+	background: none;
+	min-height: none;
+	background-size: none;
+	background-position: center;
+	border-radius: 0px;
+}
+
 .down{
 	padding: none;
 }
@@ -115,6 +124,11 @@ button a:hover{
 }
 
 #food .top-dark{/* make the owl carosul image dark with a mask and make responsive*/
+	background-color: none;
+	z-index: 10;
+}
+
+#helth .top-dark{/* make the owl carosul image dark with a mask and make responsive*/
 	background-color: none;
 	z-index: 10;
 }
