@@ -23,7 +23,7 @@
 	border-radius: 0px;
 }
 
-#main1{
+#parma{
 	position: relative;
 	background: none;
 	min-height: none;
@@ -100,7 +100,7 @@ button a:hover{
 	z-index: 10;
 }
 
-#main1 .top-dark{/* make the owl carosul image dark with a mask and make responsive*/
+#parma .top-dark{/* make the owl carosul image dark with a mask and make responsive*/
 	background-color: none;
 	z-index: 10;
 }
@@ -236,13 +236,13 @@ button a:hover{
 
 @media all and (min-width: 646px) {
 	#main{background: url(../img/14.jpg);background-size: cover;min-height: 40vh;}
-	#main1{background: url(../img/farming.jpg);background-size: cover;min-height: 40vh;}
+	#parma{background: url(../img/farming.jpg);background-size: cover;min-height: 40vh;}
 	.down{padding: 20px 0 0 0;}	
 	.slider-logo{width: 40px !important;height: 40px !important;}
 	.caption-logo{bottom: 0% !important;left: 5% !important;}
 	.button-position{right: 5%; bottom: 10px;}
 	#main .top-dark{background-color: #00000030;}
-	#main1 .top-dark{background-color: #00000030;}
+	#parma .top-dark{background-color: #00000030;}
 	.muted-text-mobi{padding: 20px 20px 20px 30px;}
 	.btn-outline-light{border:1px solid #000;}
 	 button a{color:#000;}
