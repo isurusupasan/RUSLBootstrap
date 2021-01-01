@@ -252,6 +252,7 @@ button a:hover{
 	#main{background: url(../img/14.jpg);background-size: cover;min-height: 40vh;}
 	#food{background: url(../img/farming.jpg);background-size: cover;min-height: 40vh;}
 	#parma{background: url(../img/pharma.jpg);background-size: cover;min-height: 40vh;}
+	#helth{background: url(../img/pharma.jpg);background-size: cover;min-height: 40vh;}
 	.down{padding: 20px 0 0 0;}	
 	.slider-logo{width: 40px !important;height: 40px !important;}
 	.caption-logo{bottom: 0% !important;left: 5% !important;}
