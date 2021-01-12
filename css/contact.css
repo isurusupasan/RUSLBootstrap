@@ -1,124 +1,44 @@
 @import url(https://fonts.googleapis.com/css2?family=Yantramanav:wght@400;900&display=swap);
-*{
+body{
 	font-family: 'Poppins', sans-serif;
+	background-color:#EBEBEB;
 }
-/*research topic row*/
-div.polaroid {/* controlling the box type affect in objects*/
-
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	margin-bottom: 25px;
-	width: 40%;
-	background-color: #F5F5F5;
+.research-head{
+	font-size:50px;
+	font-weight:300;
+	margin-top:20px;
+	margin-bottom:50px;
 }
-
-div.polaroidup{/* controlling the about us box colur and size*/
-	box-shadow: none;
-	margin-bottom: 25px;
-	width: inherit;
-	height: 100px;
-	background-color: rgb(245, 245, 245);
-	color:#000;
+.quote{
+	background-color:#31ADFF;
+	color:#fff;
+	font-size:26px;
 }
-.align-right{
-    text-align: right !important;
+.content{
+	background-color:#fff;
+	border-radius:10px;
+	margin-left:50px;
+	margin-right:50px;
 }
-.bg-dark-black{/* related to about us text block*/
-	
-	border-left: rgba(81, 124, 81, 0) 10px solid;
-	border-right: rgba(81, 124, 81, 0) 20px solid;       
-}
-
-.relative {
-	position: relative;
-}
-
-.align-right{
-	text-align: right !important;
-}
-header {/* header for about us text (incase we may need)*/
-        display: block;
-}
-.container{
-        padding-right: 15px;
-        scroll-padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-}
-/*contact topic ends*/
-form-control{
-	  width: 50%;
-	  border: 5px;
-  }
-form{
-	padding-top:10px;
-	padding-bottom:10px;
-	padding-left:50px;
-	padding-right:50px;
-	width:85%;
-	margin:50px;
-	outline-color:black;
-	outline:5px;
-	background:transparent;
-	color:black;
-	transition: all 4s ease-in-out;
-	font-size:20px;
-	border:2px solid #F2F3F4;
-}
-.info{
-	width:100%;
-	height:100%;
-}
-.icon1{
-	width:50px;
-	height:50px;
-}
-.contact{
-	background-color: none;
-}
-.td-hight{
-	height:50px;
-	
-}
-.table-social{
-	padding:10px;
-}
-table td{
-	padding:0px;
-}
-.image{
-	padding-top:20px;
-	padding-bottom:20px;
-	padding-left:20px;
-	padding-right:20px;
-	
-}
-.offices{
-	padding-left:0px;
-	padding-top:100px;
-	font-size:18px;
+.let{
+	font-size:26px;
 }
 input{
-	background:transparent;
-	background:none;
-	color:#99abb8;
-	font-size: 15px;
-	height: 45px;
+	border-radius:8px;
+	color:#414141;
+	border:1px solid #707070;
+	font-size:16px;
+	width:100%;
+	margin-bottom:20px;
+	height:54px;
 }
-.form input{
-	background:transparent;
-	background:none;
-	color:#99abb8;
-	font-size: 15px;
+textarea{
+	width:100%;
+	height:136px;
 }
-.form textarea{
-	background:transparent;
-	background:none;
-	color:#99abb8;
-	font-size: 15px;
+button{
+	width:134px;
+	height:46px;
+	border:1px solid #707070;
+	border-radius:10px;
 }
-/*.front{
-  background-color: #c98f23bd; /* Fallback color
-  background-color: #1c272bc5; /* Black w/opacity/see-through 
-  color: white;
-  font-weight: bold;       
-}*/ 
