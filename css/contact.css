@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
 @import url(https://fonts.googleapis.com/css2?family=Yantramanav:wght@400;900&display=swap);
+
 body{
 	font-family: 'Poppins', sans-serif;
 	background-color:#EBEBEB;
@@ -13,20 +16,36 @@ body{
 	background-color:#31ADFF;
 	color:#fff;
 	font-size:26px;
-	border-radius:5px;
-	margin-left:-30px;
+	border-radius:0px 5px 5px 0px;
+	margin-left:-15px;
 	padding-left:30px;
-}
-.content{
-	background-color:#fff;
-	border-radius:10px;
-	margin-left:50px;
-	margin-right:50px;
 	padding-top:10px;
-	padding-bottom:10px;
+	height:98px;
 }
 .let{
 	font-size:26px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+.form{
+	background-color:#fff;
+	border-radius:10px 0px 0px 10px;
+	margin-left:60px;
+	margin-right:0px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.details{
+	background-color:#fff;
+	border-radius:0px 10px 10px 0px;
+}
+.contact_details tr td{
+	padding-left:30px;
+	padding-bottom:30px;
+}
+.column{
+	background-color:#fff;
+	margin-right:0px;
 }
 input{
 	border-radius:8px;
@@ -37,15 +56,32 @@ input{
 	margin-bottom:20px;
 	height:54px;
 	padding-left:20px;
+	font-family: 'Poppins', sans-serif;
+	font-weight:400;
 }
 textarea{
 	width:100%;
 	height:136px;
 	padding-left:20px;
+	border-radius:8px;
 }
 button{
 	width:134px;
 	height:46px;
 	border:1px solid #707070;
 	border-radius:10px;
+	margin-top:10px;
+	background-color:#fff;
+}
+.icons{
+	background-color:#31ADFF;
+	border-radius:7px;
+}
+.icon-border{
+	width:54px;
+	height:54px;
+	background-color:#31ADFF;
+	text-align:center;
+	padding:5px;
+	border-radius:7px;
 }
